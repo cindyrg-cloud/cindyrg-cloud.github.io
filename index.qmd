@@ -4,7 +4,7 @@ title: "My Blog"
 Author: Cindy Guzman
 Date: "r Sys.Date()'"
 format:
-html:
+html: www.Cindyrgblog.com
 theme: journal
 toc: true
 ---
