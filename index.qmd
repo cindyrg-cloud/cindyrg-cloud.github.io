@@ -1,0 +1,15 @@
+---
+title: "My Blog"
+---
+Author: Cindy Guzman
+Date: "r Sys.Date()'"
+format:
+html: www.Cindyrgblog.com
+theme: journal
+toc: true
+---
+#Hello, World!
+
+Welcome to my Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
