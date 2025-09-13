@@ -13,8 +13,4 @@ format: html
 My name is Cindy and I am a Senior Business Analyst based in Boston, MA. I reside with my long term partner and my Bichon Frise Pup named Kylo. When I'm not engaging in analytical work or graduate school, I can be found at a the gym, more specifically, taking barre. I am an avid barre lover and am super passionate about the excercise. Aside from being a barre baddie, I enjoy spending quality time with my very LARGE family and eating good food.
 
 ## Education
-Graduated from Bridgewater State University
-Bachelors Degree in BioChemistry
-
-Currently enrolled at Boston University
-Masters in Applied Business Analytics
+I earned my Bachelor’s in Chemistry with a focus on Biochemistry, at Bridgewater State University. Where I spent way too much time in the lab and loved every minute of it. Currently I'm pursuing my Master’s in Applied Business Analytics at Boston University, where I’m deepening my understanding of data-driven decision-making and strategic analysis.
