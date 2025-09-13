@@ -2,7 +2,7 @@
 title: "My Blog"
 
 author: "Cindy Guzman"
-aate: "r Sys.Date(2025-09-13)'"
+date: "r Sys.Date()'"
 format: html
 
 
