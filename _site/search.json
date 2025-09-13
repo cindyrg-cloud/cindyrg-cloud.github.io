@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "My Blog",
     "section": "",
-    "text": "Author: Cindy Guzman Date: “r Sys.Date()’” format: html: www.Cindyrgblog.com theme: journal toc: true — #Hello, World!\nWelcome to my Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Author: Cindy Guzman Date: “r Sys.Date()’” format: html: www.Cindyrgblog.com theme: journal toc: true — #Hello, World!\n## About Me Hi everyone! My name is Cindy and I am a Senior Business Analyst based in Boston, MA. I reside with my long term partner and my Bichon Frise Pup named Kylo. When I’m not engaging in analytical work or graduate school, I can be found at a the gym, more specifically, taking barre. I am an avid barre lover and am super passionate about the excercise. Aside from being a barre baddie, I enjoy spending quality time with my very LARGE family and eating good food.\n## Education Graduated from Bridgewater State University Bachelors Degree in BioChemistry\nCurrently enrolled at Boston University Masters in Applied Business Analytics"
   },
   {
     "objectID": "cindyrg.github.io/about.html",
