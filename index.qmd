@@ -7,9 +7,6 @@ format: html
 theme: 
 toc: true
 
- echo: true
- eval: false
- code-fold: true
 ---
 # Hello, World!
 
