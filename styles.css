@@ -1,1 +1,7 @@
 /* css styles */
+h2 {
+  font-weight: bold;
+  margin-top: 2em;
+  color: #2c3e50; /* Optional: dark blue tone */
+  border-bottom: 1px solid #ccc; /* Optional: underline effect */
+}
