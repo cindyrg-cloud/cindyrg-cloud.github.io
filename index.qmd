@@ -10,7 +10,10 @@ format: html
 # Hello, World!
 
 ## About Me
-My name is Cindy and I am a Senior Business Analyst based in Boston, MA. I reside with my long term partner and my Bichon Frise Pup named Kylo. When I'm not engaging in analytical work or graduate school, I can be found at a the gym, more specifically, taking barre. I am an avid barre lover and am super passionate about the excercise. Aside from being a barre baddie, I enjoy spending quality time with my very LARGE family and eating good food.
+Hi, I'm Cindy 👋
+I'm a Senior Business Analyst based in Boston, MA, where I live with my long-term partner and our fluffy Bichon Frise pup, Kylo. When I'm not deep in data or immersed in graduate studies, you’ll likely find me at the gym—specifically in a barre class. I’m a proud barre enthusiast and completely obsessed with the strength, grace, and discipline the workout brings.
+Outside of my “barre baddie” life, I cherish spending time with my (very large!) family and indulging in delicious food. Whether it’s a home-cooked meal or a new restaurant find, I’m always up for a good bite and great company.
+
 
 ## Education
 I earned my Bachelor’s in Chemistry with a focus on Biochemistry, at Bridgewater State University. Where I spent way too much time in the lab and loved every minute of it. Currently I'm pursuing my Master’s in Applied Business Analytics at Boston University, where I’m deepening my understanding of data-driven decision-making and strategic analysis.
