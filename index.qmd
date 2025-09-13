@@ -1,10 +1,10 @@
 ---
 title: "My Blog"
 
-Author: "Cindy Guzman"
-Date: "r Sys.Date(2025-09-13)'"
+author: "Cindy Guzman"
+aate: "r Sys.Date(2025-09-13)'"
 format: html
-toc: true
+execute:
 
 ---
 # Hello, World!
