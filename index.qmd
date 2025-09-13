@@ -2,7 +2,7 @@
 title: "My Blog"
 
 author: "Cindy Guzman"
-date: "today'"
+date: "today"
 format: html
 
 
