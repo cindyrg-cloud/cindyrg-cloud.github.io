@@ -1,19 +1,17 @@
 ---
-title: "My Blog"
+title: "Welcome"
+page-layout: article
+---
 
-author: "Cindy Guzman"
-date: "today"
-format: html
+# Hi, I’m **Cindy Guzman** 👋
 
+Senior Business Analyst @ Liberty Mutual • MS Applied Business Analytics (BU)
+
+I translate messy, real-world data into decisions. On this site you’ll find:
+- **Projects** showing modeling, visualization, and product thinking
+- A concise **CV** (downloadable PDF)
+- Ways to **contact** me
+
+> Currently exploring salary prediction with Lightcast job-posting data, model comparison (GLR, Linear, Polynomial, Random Forest), and clean MLOps habits on EC2.
 
 ---
-# Hello, World!
-
-## About Me
-Hi, I'm Cindy 👋
-I'm a Senior Business Analyst based in Boston, MA, where I live with my long-term partner and our fluffy Bichon Frise pup, Kylo. When I'm not deep in data or immersed in graduate studies, you’ll likely find me at the gym—specifically in a barre class. I’m a proud barre enthusiast and completely obsessed with the strength, grace, and discipline the workout brings.
-Outside of my “barre baddie” life, I cherish spending time with my (very large!) family and indulging in delicious food. Whether it’s a home-cooked meal or a new restaurant find, I’m always up for a good bite and great company.
-
-
-## Education
-I earned my Bachelor’s in Chemistry with a focus on Biochemistry, at Bridgewater State University. Where I spent way too much time in the lab and loved every minute of it. Currently I'm pursuing my Master’s in Applied Business Analytics at Boston University, where I’m deepening my understanding of data-driven decision-making and strategic analysis.

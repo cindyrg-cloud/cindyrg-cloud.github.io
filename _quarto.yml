@@ -1,26 +1,30 @@
 project:
   type: website
+  output-dir: _site
 
 website:
-  title: "My Blog"
+  title: "Cindy Guzman"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - href: about.qmd
-page-footer:
-left: "2025 Cindy Guzman"
-right: "Built with Quarto"
+      - text: About You
+        href: about.qmd
+      - text: Projects
+        href: projects.qmd
+      - text: CV
+        href: cv.qmd
+      - text: Contact
+        href: contact.qmd
+  page-navigation: true
+  favicon: assets/headshot.jpg
 
 format:
   html:
     theme: lux
-    fontsize: 1.1em
-    linestretch: 1.7
-    css: styles.css
     toc: true
-    toc-depth: 3
-    toc-location: left
+    toc-depth: 2
+    smooth-scroll: true
+    css: styles.css
 
-
-
+# Optional: nice URLs (no .html in links)
+metadata-files: []
+editor: visual

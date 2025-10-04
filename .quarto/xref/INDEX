@@ -10,5 +10,14 @@
   },
   "cindyrg.github.io/index.qmd": {
     "index.html": "095988a1"
+  },
+  "projects.qmd": {
+    "projects.html": "ef52f46c"
+  },
+  "cv.qmd": {
+    "cv.html": "7f96f7f4"
+  },
+  "contact.qmd": {
+    "contact.html": "c05fb55a"
   }
 }
