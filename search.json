@@ -1,10 +1,31 @@
 [
   {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Cindy Guzman",
+    "section": "",
+    "text": "---\ntitle: \"Projects\"\n---\n\n## Salary Prediction on Lightcast Job Postings\n**Stack:** PySpark, Quarto, Python • **Focus:** regression modeling & feature engineering  \n- Built GLR, Linear, Polynomial (quadratic in `MIN_YEARS_EXPERIENCE`), and Random Forest\n- One-hot encoding, frequency ordering, and sanity filters\n- Evaluated on RMSE, MAE, R² with clean test splits\n![Example plot](assets/salary-plot.png)\n\n**Repo/Write-up:** (add link)\n\n---\n\n## Skills Radar (Team Portfolio)\nTiny app that displays team skill levels (Python/SQL/ML/Cloud) and exports visuals for decks.  \n**Stack:** Python, pandas, Quarto\n\n---\n\n## Quarto Portfolio Site (this site)\nDeployed with GitHub Pages & GH Actions; optimized images and navigation."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Cindy Guzman",
+    "section": "",
+    "text": "---\ntitle: \"CV\"\n---\n\nYou can browse highlights below or download the full PDF.\n\n- **Senior Business Analyst**, Liberty Mutual — cross-functional projects, automation, stakeholder comms\n- **Analytics Coursework**, Boston University — applied business analytics, Lightcast modeling\n- **Tech:** Python, PySpark, SQL, Git/GitHub, Quarto, AWS EC2\n\n➡️ **Download CV:** [Cindy-Guzman-CV.pdf](assets/Cindy-Guzman-CV.pdf)"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome",
     "section": "",
     "text": "Hi, I’m Cindy Guzman 👋\nSenior Business Analyst @ Liberty Mutual • MS Applied Business Analytics (BU)\nI translate messy, real-world data into decisions. On this site you’ll find: - Projects showing modeling, visualization, and product thinking - A concise CV (downloadable PDF) - Ways to contact me\n\nCurrently exploring salary prediction with Lightcast job-posting data, model comparison (GLR, Linear, Polynomial, Random Forest), and clean MLOps habits on EC2."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Cindy Guzman",
+    "section": "",
+    "text": "---\ntitle: \"Contact\"\n---\n\nLet’s connect!\n\n- 📧 Email: cindy.r.guzman@example.com\n- 💼 LinkedIn: https://www.linkedin.com/in/your-handle\n- 🐙 GitHub:  https://github.com/your-handle\n\n&gt; Prefer a form? Use a service like Formspree and embed it here later."
   },
   {
     "objectID": "about.html",

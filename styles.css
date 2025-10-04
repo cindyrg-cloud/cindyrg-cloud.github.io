@@ -1,7 +1,4 @@
-/* css styles */
-h2 {
-  font-weight: bold;
-  margin-top: 2em;
-  color: #2c3e50; /* Optional: dark blue tone */
-  border-bottom: 1px solid #ccc; /* Optional: underline effect */
-}
+/* Subtle polish */
+.navbar-brand { font-weight: 700; }
+h1, h2, h3 { letter-spacing: .2px; }
+img { max-width: 100%; }
