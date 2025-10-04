@@ -44,9 +44,37 @@
   {
     "objectID": "cv.html",
     "href": "cv.html",
-    "title": "Cindy Guzman",
+    "title": "Curriculum Vitae",
     "section": "",
-    "text": "---\ntitle: \"CV\"\n---\n\nYou can browse highlights below or download the full PDF.\n\n- **Senior Business Analyst**, Liberty Mutual — cross-functional projects, automation, stakeholder comms\n- **Analytics Coursework**, Boston University — applied business analytics, Lightcast modeling\n- **Tech:** Python, PySpark, SQL, Git/GitHub, Quarto, AWS EC2\n\n➡️ **Download CV:** [Cindy-Guzman-CV.pdf](assets/Cindy-Guzman-CV.pdf)"
+    "text": "Senior Business Analyst · Liberty Mutual\n\n\n\nBoston, MA\nCindy.RG.7@gmail.com\n617-639-6086\ngithub.com/your-handle\nlinkedin.com/in/your-handle\n\n\n\nDownload PDF\nDownload Word\n\n\n\nSenior Business Analyst who thrives at the intersection of business strategy and data pipelines. Experienced translating messy data into decisions—building predictive models, automating reporting, and presenting insights to stakeholders.\n\n\n\n\n\nLiberty Mutual Insurance\n\n\nSenior Business Analyst · Boston, MA\n\n\nDec 2024 – Present\n\n\n\nLead cross-functional analytics projects translating data into actionable business insights.\nDevelop predictive models and dashboards using Python, SQL, PySpark, and Power BI.\nPartner with IT, Finance, and Product to design reporting solutions and present to senior leadership.\nMentor junior analysts on analysis best practices and business communication.\n\n\n\n\nLiberty Mutual Insurance\n\n\nAccountant · Boston, MA\n\n\nAug 2022 – Dec 2024\n\n\n\nManaged accounts payable totaling $50M; ensured GAAP compliance and accurate reconciliation.\nPrepared weekly financial statements for $1–$3M payments and analyzed transactions.\nPerformed reserve postings and asset-coverage ratio analysis to inform financial performance.\nLed client meetings; supported audits and system-integration projects to drive efficiency.\n\n\n\n\nQuanterix\n\n\nTechnical Support Coordinator · Billerica, MA\n\n\nDec 2018 – Feb 2021\n\n\n\nDirected global service requests via Salesforce; triaged JIRA tickets by urgency and category.\nCreated a training program (docs + how-to videos) to onboard coordinators.\nManaged instrument inventory and maintenance; audited closed cases for process compliance.\n\n\n\n\nLiberty Mutual Insurance\n\n\nRecovery Technician I · Weston, MA\n\n\nJun 2018 – Dec 2018\n\n\n\nProcessed workers’ compensation recovery claims; investigated third-party liabilities and negotiated settlements.\n\n\n\n\n\n\n\nBridgewater State University\n\n\nB.S. in Biochemistry · Bridgewater, MA\n\n\nMay 2018\n\n\n\n\n\n\n\nTechnical\n\n\n\nPython\n\n\nPySpark\n\n\nSQL\n\n\nPower BI\n\n\nSalesforce\n\n\nJIRA\n\n\nSAP\n\n\nMicrosoft Office\n\n\nCore\n\n\n\nData Analysis\n\n\nFinancial Reporting\n\n\nTime Management\n\n\nCommunication\n\n\nStakeholder Management\n\n\nLanguages\n\n\n\nEnglish\n\n\nSpanish"
+  },
+  {
+    "objectID": "cv.html#summary",
+    "href": "cv.html#summary",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Senior Business Analyst who thrives at the intersection of business strategy and data pipelines. Experienced translating messy data into decisions—building predictive models, automating reporting, and presenting insights to stakeholders."
+  },
+  {
+    "objectID": "cv.html#experience",
+    "href": "cv.html#experience",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Liberty Mutual Insurance\n\n\nSenior Business Analyst · Boston, MA\n\n\nDec 2024 – Present\n\n\n\nLead cross-functional analytics projects translating data into actionable business insights.\nDevelop predictive models and dashboards using Python, SQL, PySpark, and Power BI.\nPartner with IT, Finance, and Product to design reporting solutions and present to senior leadership.\nMentor junior analysts on analysis best practices and business communication.\n\n\n\n\nLiberty Mutual Insurance\n\n\nAccountant · Boston, MA\n\n\nAug 2022 – Dec 2024\n\n\n\nManaged accounts payable totaling $50M; ensured GAAP compliance and accurate reconciliation.\nPrepared weekly financial statements for $1–$3M payments and analyzed transactions.\nPerformed reserve postings and asset-coverage ratio analysis to inform financial performance.\nLed client meetings; supported audits and system-integration projects to drive efficiency.\n\n\n\n\nQuanterix\n\n\nTechnical Support Coordinator · Billerica, MA\n\n\nDec 2018 – Feb 2021\n\n\n\nDirected global service requests via Salesforce; triaged JIRA tickets by urgency and category.\nCreated a training program (docs + how-to videos) to onboard coordinators.\nManaged instrument inventory and maintenance; audited closed cases for process compliance.\n\n\n\n\nLiberty Mutual Insurance\n\n\nRecovery Technician I · Weston, MA\n\n\nJun 2018 – Dec 2018\n\n\n\nProcessed workers’ compensation recovery claims; investigated third-party liabilities and negotiated settlements."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Bridgewater State University\n\n\nB.S. in Biochemistry · Bridgewater, MA\n\n\nMay 2018"
+  },
+  {
+    "objectID": "cv.html#skills",
+    "href": "cv.html#skills",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Technical\n\n\n\nPython\n\n\nPySpark\n\n\nSQL\n\n\nPower BI\n\n\nSalesforce\n\n\nJIRA\n\n\nSAP\n\n\nMicrosoft Office\n\n\nCore\n\n\n\nData Analysis\n\n\nFinancial Reporting\n\n\nTime Management\n\n\nCommunication\n\n\nStakeholder Management\n\n\nLanguages\n\n\n\nEnglish\n\n\nSpanish"
   },
   {
     "objectID": "index.html",
