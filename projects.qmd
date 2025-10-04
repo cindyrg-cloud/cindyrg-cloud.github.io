@@ -1,25 +1,77 @@
-```         
 ---
 title: "Projects"
+page-layout: article
 ---
 
+# Projects
+
+Below are a few highlights that show how I approach real problems end-to-end: clarify the question, build reliable data/ML pipelines, and communicate results to decision-makers.
+
+---
+
+::: {.project-card}
 ## Salary Prediction on Lightcast Job Postings
-**Stack:** PySpark, Quarto, Python • **Focus:** regression modeling & feature engineering  
-- Built GLR, Linear, Polynomial (quadratic in `MIN_YEARS_EXPERIENCE`), and Random Forest
-- One-hot encoding, frequency ordering, and sanity filters
-- Evaluated on RMSE, MAE, R² with clean test splits
-![Example plot](assets/salary-plot.png)
+**Role:** Modeler & Analyst • **Stack:** PySpark, Python, Quarto • **Topics:** feature engineering, regression, evaluation
 
-**Repo/Write-up:** (add link)
+- Built and compared **GLR**, **Linear**, **Polynomial (quadratic in `MIN_YEARS_EXPERIENCE`)**, and **Random Forest** regressors.
+- Encoded categorical fields (freq-ordered + one-hot), enforced sanity filters, and assembled numeric features.
+- Assessed on **RMSE, MAE, R²** with a clean 80/20 train–test split; produced **actual-vs-pred** visuals and **feature importance**.
+- Delivered a Quarto report with reproducible code and figures.
+
+**Highlights**
+- Fast, inspectable pipeline with consistent splits and metric tables.
+- Clear visuals for stakeholder readouts (test set focus, no leakage).
+
+**Links**
+- _Add when ready:_ [Repository](#) • [Report](#)
+
+![Plot placeholder](assets/salary-plot.png){width="720" .project-image}
+:::
 
 ---
 
-## Skills Radar (Team Portfolio)
-Tiny app that displays team skill levels (Python/SQL/ML/Cloud) and exports visuals for decks.  
-**Stack:** Python, pandas, Quarto
+::: {.project-card}
+## Financial Reporting Automation (Liberty Mutual)
+**Role:** Analyst (Accounting → Analytics) • **Stack:** SQL, Python, Power BI
+
+- Streamlined AP/close workflows supporting **$50M** in transactions and **$1–3M** weekly payments.
+- Automated reconciliation checks and **reserve/asset-coverage** calculations to reduce manual effort.
+- Partnered with finance leadership to align metrics and definitions; published refreshed dashboards.
+
+**Impact**
+- Fewer reconciliation defects and faster time-to-close.
+:::
 
 ---
 
-## Quarto Portfolio Site (this site)
-Deployed with GitHub Pages & GH Actions; optimized images and navigation.
-```
+::: {.project-card}
+## Technical Support Ops Optimization (Quanterix)
+**Role:** Ops & Analytics • **Stack:** Salesforce, JIRA, Excel/Power BI
+
+- Triaged global service requests, standardized categories/SLAs, and audited closed cases monthly.
+- Designed a **training program** (docs + how-to videos) for new coordinators.
+- Improved throughput and documentation quality across the service desk.
+
+**Impact**
+- Clear ownership, faster routing, and more reliable reporting.
+:::
+
+---
+
+::: {.project-card}
+## This Website (Quarto + GitHub Pages)
+**Role:** Designer/Implementer • **Stack:** Quarto, GitHub Actions/Pages
+
+- Built an accessible, fast personal site with a minimal brand.
+- Organized for employers: **About**, **Projects**, **CV**, **Contact** (no “data cleaning/exploration” tabs).
+- Image optimization and consistent typography for a professional look.
+
+**Links**
+- _Add when live:_ [Site URL](#) • [Source Repo](#)
+:::
+
+---
+
+## What I’m Exploring Next
+- Packaging the Lightcast pipeline for parameterized re-runs and CI checks.
+- Adding lightweight experiment tracking and a model comparison dashboard.

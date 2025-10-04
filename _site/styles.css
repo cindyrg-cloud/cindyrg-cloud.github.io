@@ -2,3 +2,17 @@
 .navbar-brand { font-weight: 700; }
 h1, h2, h3 { letter-spacing: .2px; }
 img { max-width: 100%; }
+
+/* Profile headshot styling */
+.profile-pic {
+  display: block;
+  margin: 0 auto 1.5rem auto; /* center and add spacing below */
+  border: 3px solid #ddd;     /* subtle border */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15); /* soft shadow */
+  border-radius: 8px;         /* slightly rounded corners (square-ish) */
+}
+.profile-pic:hover {
+  box-shadow: 0 6px 12px rgba(0,0,0,0.25); /* deeper shadow on hover */
+  transform: translateY(-2px);            /* slight lift on hover */
+  transition: all 0.3s ease;              /* smooth transition */
+}
