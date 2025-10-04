@@ -1,0 +1,25 @@
+```         
+---
+title: "Projects"
+---
+
+## Salary Prediction on Lightcast Job Postings
+**Stack:** PySpark, Quarto, Python • **Focus:** regression modeling & feature engineering  
+- Built GLR, Linear, Polynomial (quadratic in `MIN_YEARS_EXPERIENCE`), and Random Forest
+- One-hot encoding, frequency ordering, and sanity filters
+- Evaluated on RMSE, MAE, R² with clean test splits
+![Example plot](assets/salary-plot.png)
+
+**Repo/Write-up:** (add link)
+
+---
+
+## Skills Radar (Team Portfolio)
+Tiny app that displays team skill levels (Python/SQL/ML/Cloud) and exports visuals for decks.  
+**Stack:** Python, pandas, Quarto
+
+---
+
+## Quarto Portfolio Site (this site)
+Deployed with GitHub Pages & GH Actions; optimized images and navigation.
+```

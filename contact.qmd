@@ -1,0 +1,13 @@
+```         
+---
+title: "Contact"
+---
+
+Let’s connect!
+
+- 📧 Email: cindy.r.guzman@example.com
+- 💼 LinkedIn: https://www.linkedin.com/in/your-handle
+- 🐙 GitHub:  https://github.com/your-handle
+
+> Prefer a form? Use a service like Formspree and embed it here later.
+```

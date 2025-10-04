@@ -1,0 +1,13 @@
+```         
+---
+title: "CV"
+---
+
+You can browse highlights below or download the full PDF.
+
+- **Senior Business Analyst**, Liberty Mutual — cross-functional projects, automation, stakeholder comms
+- **Analytics Coursework**, Boston University — applied business analytics, Lightcast modeling
+- **Tech:** Python, PySpark, SQL, Git/GitHub, Quarto, AWS EC2
+
+➡️ **Download CV:** [Cindy-Guzman-CV.pdf](assets/Cindy-Guzman-CV.pdf)
+```
