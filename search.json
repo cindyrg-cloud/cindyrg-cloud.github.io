@@ -2,29 +2,29 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "My Blog",
+    "title": "Welcome",
     "section": "",
-    "text": "Hi, I’m Cindy 👋 I’m a Senior Business Analyst based in Boston, MA, where I live with my long-term partner and our fluffy Bichon Frise pup, Kylo. When I’m not deep in data or immersed in graduate studies, you’ll likely find me at the gym—specifically in a barre class. I’m a proud barre enthusiast and completely obsessed with the strength, grace, and discipline the workout brings. Outside of my “barre baddie” life, I cherish spending time with my (very large!) family and indulging in delicious food. Whether it’s a home-cooked meal or a new restaurant find, I’m always up for a good bite and great company.\n\n\n\nI earned my Bachelor’s in Chemistry with a focus on Biochemistry, at Bridgewater State University. Where I spent way too much time in the lab and loved every minute of it. Currently I’m pursuing my Master’s in Applied Business Analytics at Boston University, where I’m deepening my understanding of data-driven decision-making and strategic analysis."
-  },
-  {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "My Blog",
-    "section": "",
-    "text": "Hi, I’m Cindy 👋 I’m a Senior Business Analyst based in Boston, MA, where I live with my long-term partner and our fluffy Bichon Frise pup, Kylo. When I’m not deep in data or immersed in graduate studies, you’ll likely find me at the gym—specifically in a barre class. I’m a proud barre enthusiast and completely obsessed with the strength, grace, and discipline the workout brings. Outside of my “barre baddie” life, I cherish spending time with my (very large!) family and indulging in delicious food. Whether it’s a home-cooked meal or a new restaurant find, I’m always up for a good bite and great company."
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "My Blog",
-    "section": "",
-    "text": "I earned my Bachelor’s in Chemistry with a focus on Biochemistry, at Bridgewater State University. Where I spent way too much time in the lab and loved every minute of it. Currently I’m pursuing my Master’s in Applied Business Analytics at Boston University, where I’m deepening my understanding of data-driven decision-making and strategic analysis."
+    "text": "Hi, I’m Cindy Guzman 👋\nSenior Business Analyst @ Liberty Mutual • MS Applied Business Analytics (BU)\nI translate messy, real-world data into decisions. On this site you’ll find: - Projects showing modeling, visualization, and product thinking - A concise CV (downloadable PDF) - Ways to contact me\n\nCurrently exploring salary prediction with Lightcast job-posting data, model comparison (GLR, Linear, Polynomial, Random Forest), and clean MLOps habits on EC2."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About You",
     "section": "",
-    "text": "About this site"
+    "text": "Cindy headshot"
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "About You",
+    "section": "About Me",
+    "text": "About Me\nI’m a Senior Business Analyst who loves the zone where business stories meet data pipelines. - Background: B.S. Biochemistry • First-gen professional - Toolbelt: Python, PySpark, SQL, Quarto, Git/GitHub, AWS EC2 - Interests: analytics for hiring, forecasting, and customer experience"
+  },
+  {
+    "objectID": "about.html#career-goals",
+    "href": "about.html#career-goals",
+    "title": "About You",
+    "section": "Career Goals",
+    "text": "Career Goals\n\nShip insight-driven analytics that move metrics\nGrow into Analytics/ML Product work with end-to-end ownership"
   }
 ]
