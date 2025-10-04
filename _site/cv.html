@@ -130,6 +130,17 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<pre><code>---
+title: "CV"
+---
+
+You can browse highlights below or download the full PDF.
+
+- **Senior Business Analyst**, Liberty Mutual — cross-functional projects, automation, stakeholder comms
+- **Analytics Coursework**, Boston University — applied business analytics, Lightcast modeling
+- **Tech:** Python, PySpark, SQL, Git/GitHub, Quarto, AWS EC2
+
+➡️ **Download CV:** [Cindy-Guzman-CV.pdf](assets/Cindy-Guzman-CV.pdf)</code></pre>
 
 
 
@@ -207,7 +218,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/cindyrg-cloud\.github\.io\/cindyrg\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

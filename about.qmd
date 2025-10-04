@@ -5,13 +5,12 @@ title: "About You"
 ![Cindy headshot](assets/headshot.jpg){fig-alt="Headshot" width="180" style="border-radius: 9999px;"}
 
 ## About Me
-I’m a Senior Business Analyst who loves the zone where business stories meet data pipelines.
-- Background: B.S. Biochemistry • First-gen professional
-- Toolbelt: Python, PySpark, SQL, Quarto, Git/GitHub, AWS EC2
-- Interests: analytics for hiring, forecasting, and customer experience
+
+I’m a Senior Business Analyst who loves the zone where business stories meet data pipelines. - Background: B.S. Biochemistry • First-gen professional - Toolbelt: Python, PySpark, SQL, Quarto, Git/GitHub, AWS EC2 - Interests: analytics for hiring, forecasting, and customer experience
 
 ## Career Goals
-- Ship insight-driven analytics that move metrics
-- Grow into Analytics/ML Product work with end-to-end ownership
 
----
+-   Ship insight-driven analytics that move metrics
+-   Grow into Analytics/ML Product work with end-to-end ownership
+
+------------------------------------------------------------------------

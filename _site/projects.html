@@ -130,6 +130,29 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<pre><code>---
+title: "Projects"
+---
+
+## Salary Prediction on Lightcast Job Postings
+**Stack:** PySpark, Quarto, Python • **Focus:** regression modeling &amp; feature engineering  
+- Built GLR, Linear, Polynomial (quadratic in `MIN_YEARS_EXPERIENCE`), and Random Forest
+- One-hot encoding, frequency ordering, and sanity filters
+- Evaluated on RMSE, MAE, R² with clean test splits
+![Example plot](assets/salary-plot.png)
+
+**Repo/Write-up:** (add link)
+
+---
+
+## Skills Radar (Team Portfolio)
+Tiny app that displays team skill levels (Python/SQL/ML/Cloud) and exports visuals for decks.  
+**Stack:** Python, pandas, Quarto
+
+---
+
+## Quarto Portfolio Site (this site)
+Deployed with GitHub Pages &amp; GH Actions; optimized images and navigation.</code></pre>
 
 
 
@@ -207,7 +230,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/cindyrg-cloud\.github\.io\/cindyrg\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
