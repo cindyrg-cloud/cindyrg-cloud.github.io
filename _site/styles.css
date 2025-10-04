@@ -112,16 +112,22 @@ img { max-width: 100%; }
   background: #fff;
 }
 
+/* Contact form button styled like .btn */
 .contact-form button {
-  justify-self: start;
-  padding: .6rem 1rem;
+  display: inline-block;
+  padding: .6rem 1.2rem;
+  margin-top: .5rem;
+  border-radius: 9999px;        /* full pill shape */
   border: 1px solid #111827;
-  border-radius: 10px;
   background: #111827;
   color: #fff;
-  font-weight: 700;
+  font-weight: 600;
   cursor: pointer;
+  transition: all 0.2s ease;
 }
+
 .contact-form button:hover {
-  opacity: .9;
+  background: #fff;
+  color: #111827;
 }
+
