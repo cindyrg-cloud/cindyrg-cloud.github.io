@@ -37,15 +37,85 @@
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "Cindy Guzman",
+    "title": "Projects",
     "section": "",
-    "text": "---\ntitle: \"Projects\"\n---\n\n## Salary Prediction on Lightcast Job Postings\n**Stack:** PySpark, Quarto, Python • **Focus:** regression modeling & feature engineering  \n- Built GLR, Linear, Polynomial (quadratic in `MIN_YEARS_EXPERIENCE`), and Random Forest\n- One-hot encoding, frequency ordering, and sanity filters\n- Evaluated on RMSE, MAE, R² with clean test splits\n![Example plot](assets/salary-plot.png)\n\n**Repo/Write-up:** (add link)\n\n---\n\n## Skills Radar (Team Portfolio)\nTiny app that displays team skill levels (Python/SQL/ML/Cloud) and exports visuals for decks.  \n**Stack:** Python, pandas, Quarto\n\n---\n\n## Quarto Portfolio Site (this site)\nDeployed with GitHub Pages & GH Actions; optimized images and navigation."
+    "text": "Below are a few highlights that show how I approach real problems end-to-end: clarify the question, build reliable data/ML pipelines, and communicate results to decision-makers.\n\n\n\nRole: Modeler & Analyst • Stack: PySpark, Python, Quarto • Topics: feature engineering, regression, evaluation\n\nBuilt and compared GLR, Linear, Polynomial (quadratic in MIN_YEARS_EXPERIENCE), and Random Forest regressors.\nEncoded categorical fields (freq-ordered + one-hot), enforced sanity filters, and assembled numeric features.\nAssessed on RMSE, MAE, R² with a clean 80/20 train–test split; produced actual-vs-pred visuals and feature importance.\nDelivered a Quarto report with reproducible code and figures.\n\nHighlights - Fast, inspectable pipeline with consistent splits and metric tables. - Clear visuals for stakeholder readouts (test set focus, no leakage).\nLinks - Add when ready: Repository • Report\n\n\n\nPlot placeholder\n\n\n\n\n\n\nRole: Analyst (Accounting → Analytics) • Stack: SQL, Python, Power BI\n\nStreamlined AP/close workflows supporting $50M in transactions and $1–3M weekly payments.\nAutomated reconciliation checks and reserve/asset-coverage calculations to reduce manual effort.\nPartnered with finance leadership to align metrics and definitions; published refreshed dashboards.\n\nImpact - Fewer reconciliation defects and faster time-to-close.\n\n\n\n\nRole: Ops & Analytics • Stack: Salesforce, JIRA, Excel/Power BI\n\nTriaged global service requests, standardized categories/SLAs, and audited closed cases monthly.\nDesigned a training program (docs + how-to videos) for new coordinators.\nImproved throughput and documentation quality across the service desk.\n\nImpact - Clear ownership, faster routing, and more reliable reporting.\n\n\n\n\nRole: Designer/Implementer • Stack: Quarto, GitHub Actions/Pages\n\nBuilt an accessible, fast personal site with a minimal brand.\nOrganized for employers: About, Projects, CV, Contact (no “data cleaning/exploration” tabs).\nImage optimization and consistent typography for a professional look.\n\nLinks - Add when live: Site URL • Source Repo\n\n\n\n\n\nPackaging the Lightcast pipeline for parameterized re-runs and CI checks.\nAdding lightweight experiment tracking and a model comparison dashboard."
   },
   {
     "objectID": "cv.html",
     "href": "cv.html",
-    "title": "Cindy Guzman",
+    "title": "Curriculum Vitae",
     "section": "",
-    "text": "---\ntitle: \"CV\"\n---\n\nYou can browse highlights below or download the full PDF.\n\n- **Senior Business Analyst**, Liberty Mutual — cross-functional projects, automation, stakeholder comms\n- **Analytics Coursework**, Boston University — applied business analytics, Lightcast modeling\n- **Tech:** Python, PySpark, SQL, Git/GitHub, Quarto, AWS EC2\n\n➡️ **Download CV:** [Cindy-Guzman-CV.pdf](assets/Cindy-Guzman-CV.pdf)"
+    "text": "Senior Business Analyst · Liberty Mutual\n\n\n\nBoston, MA\nCindy.RG.7@gmail.com\n617-639-6086\ngithub.com/your-handle\nlinkedin.com/in/your-handle\n\n\n\nDownload PDF\nDownload Word\n\n\n\nSenior Business Analyst who thrives at the intersection of business strategy and data pipelines. Experienced translating messy data into decisions—building predictive models, automating reporting, and presenting insights to stakeholders.\n\n\n\n\n\nLiberty Mutual Insurance\n\n\nSenior Business Analyst · Boston, MA\n\n\nDec 2024 – Present\n\n\n\nLead cross-functional analytics projects translating data into actionable business insights.\nDevelop predictive models and dashboards using Python, SQL, PySpark, and Power BI.\nPartner with IT, Finance, and Product to design reporting solutions and present to senior leadership.\nMentor junior analysts on analysis best practices and business communication.\n\n\n\n\nLiberty Mutual Insurance\n\n\nAccountant · Boston, MA\n\n\nAug 2022 – Dec 2024\n\n\n\nManaged accounts payable totaling $50M; ensured GAAP compliance and accurate reconciliation.\nPrepared weekly financial statements for $1–$3M payments and analyzed transactions.\nPerformed reserve postings and asset-coverage ratio analysis to inform financial performance.\nLed client meetings; supported audits and system-integration projects to drive efficiency.\n\n\n\n\nQuanterix\n\n\nTechnical Support Coordinator · Billerica, MA\n\n\nDec 2018 – Feb 2021\n\n\n\nDirected global service requests via Salesforce; triaged JIRA tickets by urgency and category.\nCreated a training program (docs + how-to videos) to onboard coordinators.\nManaged instrument inventory and maintenance; audited closed cases for process compliance.\n\n\n\n\nLiberty Mutual Insurance\n\n\nRecovery Technician I · Weston, MA\n\n\nJun 2018 – Dec 2018\n\n\n\nProcessed workers’ compensation recovery claims; investigated third-party liabilities and negotiated settlements.\n\n\n\n\n\n\n\nBridgewater State University\n\n\nB.S. in Biochemistry · Bridgewater, MA\n\n\nMay 2018\n\n\n\n\n\n\n\nTechnical\n\n\n\nPython\n\n\nPySpark\n\n\nSQL\n\n\nPower BI\n\n\nSalesforce\n\n\nJIRA\n\n\nSAP\n\n\nMicrosoft Office\n\n\nCore\n\n\n\nData Analysis\n\n\nFinancial Reporting\n\n\nTime Management\n\n\nCommunication\n\n\nStakeholder Management\n\n\nLanguages\n\n\n\nEnglish\n\n\nSpanish"
+  },
+  {
+    "objectID": "projects.html#salary-prediction-on-lightcast-job-postings",
+    "href": "projects.html#salary-prediction-on-lightcast-job-postings",
+    "title": "Projects",
+    "section": "",
+    "text": "Role: Modeler & Analyst • Stack: PySpark, Python, Quarto • Topics: feature engineering, regression, evaluation\n\nBuilt and compared GLR, Linear, Polynomial (quadratic in MIN_YEARS_EXPERIENCE), and Random Forest regressors.\nEncoded categorical fields (freq-ordered + one-hot), enforced sanity filters, and assembled numeric features.\nAssessed on RMSE, MAE, R² with a clean 80/20 train–test split; produced actual-vs-pred visuals and feature importance.\nDelivered a Quarto report with reproducible code and figures.\n\nHighlights - Fast, inspectable pipeline with consistent splits and metric tables. - Clear visuals for stakeholder readouts (test set focus, no leakage).\nLinks - Add when ready: Repository • Report\n\n\n\nPlot placeholder"
+  },
+  {
+    "objectID": "projects.html#financial-reporting-automation-liberty-mutual",
+    "href": "projects.html#financial-reporting-automation-liberty-mutual",
+    "title": "Projects",
+    "section": "",
+    "text": "Role: Analyst (Accounting → Analytics) • Stack: SQL, Python, Power BI\n\nStreamlined AP/close workflows supporting $50M in transactions and $1–3M weekly payments.\nAutomated reconciliation checks and reserve/asset-coverage calculations to reduce manual effort.\nPartnered with finance leadership to align metrics and definitions; published refreshed dashboards.\n\nImpact - Fewer reconciliation defects and faster time-to-close."
+  },
+  {
+    "objectID": "projects.html#technical-support-ops-optimization-quanterix",
+    "href": "projects.html#technical-support-ops-optimization-quanterix",
+    "title": "Projects",
+    "section": "",
+    "text": "Role: Ops & Analytics • Stack: Salesforce, JIRA, Excel/Power BI\n\nTriaged global service requests, standardized categories/SLAs, and audited closed cases monthly.\nDesigned a training program (docs + how-to videos) for new coordinators.\nImproved throughput and documentation quality across the service desk.\n\nImpact - Clear ownership, faster routing, and more reliable reporting."
+  },
+  {
+    "objectID": "projects.html#this-website-quarto-github-pages",
+    "href": "projects.html#this-website-quarto-github-pages",
+    "title": "Projects",
+    "section": "",
+    "text": "Role: Designer/Implementer • Stack: Quarto, GitHub Actions/Pages\n\nBuilt an accessible, fast personal site with a minimal brand.\nOrganized for employers: About, Projects, CV, Contact (no “data cleaning/exploration” tabs).\nImage optimization and consistent typography for a professional look.\n\nLinks - Add when live: Site URL • Source Repo"
+  },
+  {
+    "objectID": "projects.html#what-im-exploring-next",
+    "href": "projects.html#what-im-exploring-next",
+    "title": "Projects",
+    "section": "",
+    "text": "Packaging the Lightcast pipeline for parameterized re-runs and CI checks.\nAdding lightweight experiment tracking and a model comparison dashboard."
+  },
+  {
+    "objectID": "cv.html#experience",
+    "href": "cv.html#experience",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Liberty Mutual Insurance\n\n\nSenior Business Analyst · Boston, MA\n\n\nDec 2024 – Present\n\n\n\nLead cross-functional analytics projects translating data into actionable business insights.\nDevelop predictive models and dashboards using Python, SQL, PySpark, and Power BI.\nPartner with IT, Finance, and Product to design reporting solutions and present to senior leadership.\nMentor junior analysts on analysis best practices and business communication.\n\n\n\n\nLiberty Mutual Insurance\n\n\nAccountant · Boston, MA\n\n\nAug 2022 – Dec 2024\n\n\n\nManaged accounts payable totaling $50M; ensured GAAP compliance and accurate reconciliation.\nPrepared weekly financial statements for $1–$3M payments and analyzed transactions.\nPerformed reserve postings and asset-coverage ratio analysis to inform financial performance.\nLed client meetings; supported audits and system-integration projects to drive efficiency.\n\n\n\n\nQuanterix\n\n\nTechnical Support Coordinator · Billerica, MA\n\n\nDec 2018 – Feb 2021\n\n\n\nDirected global service requests via Salesforce; triaged JIRA tickets by urgency and category.\nCreated a training program (docs + how-to videos) to onboard coordinators.\nManaged instrument inventory and maintenance; audited closed cases for process compliance.\n\n\n\n\nLiberty Mutual Insurance\n\n\nRecovery Technician I · Weston, MA\n\n\nJun 2018 – Dec 2018\n\n\n\nProcessed workers’ compensation recovery claims; investigated third-party liabilities and negotiated settlements."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Bridgewater State University\n\n\nB.S. in Biochemistry · Bridgewater, MA\n\n\nMay 2018"
+  },
+  {
+    "objectID": "cv.html#skills",
+    "href": "cv.html#skills",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Technical\n\n\n\nPython\n\n\nPySpark\n\n\nSQL\n\n\nPower BI\n\n\nSalesforce\n\n\nJIRA\n\n\nSAP\n\n\nMicrosoft Office\n\n\nCore\n\n\n\nData Analysis\n\n\nFinancial Reporting\n\n\nTime Management\n\n\nCommunication\n\n\nStakeholder Management\n\n\nLanguages\n\n\n\nEnglish\n\n\nSpanish"
+  },
+  {
+    "objectID": "cv.html#cat-homeubuntucindyrg.github.iocv.qmd-eof",
+    "href": "cv.html#cat-homeubuntucindyrg.github.iocv.qmd-eof",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "title: “Curriculum Vitae” page-layout: full format: html: toc: false —\n\n\n&lt;div class=\"cv-name\"&gt;\n  &lt;h1&gt;Cindy Guzman&lt;/h1&gt;\n  &lt;div class=\"cv-role\"&gt;Senior Business Analyst · Liberty Mutual&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"cv-contacts\"&gt;\n  &lt;div&gt;Boston, MA&lt;/div&gt;\n  &lt;div&gt;&lt;a href=\"mailto:Cindy.RG.7@gmail.com\"&gt;Cindy.RG.7@gmail.com&lt;/a&gt;&lt;/div&gt;\n  &lt;div&gt;&lt;a href=\"tel:+16176396086\"&gt;617-639-6086&lt;/a&gt;&lt;/div&gt;\n  &lt;div&gt;&lt;a href=\"https://github.com/your-handle\"&gt;github.com/your-handle&lt;/a&gt;&lt;/div&gt;\n  &lt;div&gt;&lt;a href=\"https://linkedin.com/in/your-handle\"&gt;linkedin.com/in/your-handle&lt;/a&gt;&lt;/div&gt;\n&lt;/div&gt;\n\n\n&lt;a class=\"cv-btn\" href=\"assets/Cindy_Guzman_CV.pdf\"&gt;Download PDF&lt;/a&gt;\n&lt;a class=\"cv-btn ghost\" href=\"assets/Cindy_Guzman_CV.docx\"&gt;Download Word&lt;/a&gt;\n\n\n\n\nSenior Business Analyst who thrives at the intersection of business strategy and data pipelines. Experienced translating messy data into decisions—building predictive models, automating reporting, and presenting insights to stakeholders.\n\n\n\n\n\n  &lt;div class=\"cv-item-head\"&gt;\n    &lt;div&gt;\n      &lt;h3&gt;Liberty Mutual Insurance&lt;/h3&gt;\n      &lt;div class=\"cv-sub\"&gt;Senior Business Analyst · Boston, MA&lt;/div&gt;\n    &lt;/div&gt;\n    &lt;div class=\"cv-dates\"&gt;Dec 2024 – Present&lt;/div&gt;\n  &lt;/div&gt;\n  &lt;ul&gt;\n    &lt;li&gt;Lead cross-functional analytics projects translating data into actionable business insights.&lt;/li&gt;\n    &lt;li&gt;Develop predictive models and dashboards using Python, SQL, PySpark, and Power BI.&lt;/li&gt;\n    &lt;li&gt;Partner with IT, Finance, and Product to design reporting solutions and present to senior leadership.&lt;/li&gt;\n    &lt;li&gt;Mentor junior analysts on analysis best practices and business communication.&lt;/li&gt;\n  &lt;/ul&gt;\n&lt;/div&gt;\n\n&lt;div class=\"cv-item\"&gt;\n  &lt;div class=\"cv-item-head\"&gt;\n    &lt;div&gt;\n      &lt;h3&gt;Liberty Mutual Insurance&lt;/h3&gt;\n      &lt;div class=\"cv-sub\"&gt;Accountant · Boston, MA&lt;/div&gt;\n    &lt;/div&gt;\n    &lt;div class=\"cv-dates\"&gt;Aug 2022 – Dec 2024&lt;/div&gt;\n  &lt;/div&gt;\n  &lt;ul&gt;\n    &lt;li&gt;Managed accounts payable totaling &lt;strong&gt;$50M&lt;/strong&gt;; ensured GAAP compliance and accurate reconciliation.&lt;/li&gt;\n    &lt;li&gt;Prepared weekly financial statements for &lt;strong&gt;$1–$3M&lt;/strong&gt; payments and analyzed transactions.&lt;/li&gt;\n    &lt;li&gt;Performed reserve postings and asset-coverage ratio analysis to inform financial performance.&lt;/li&gt;\n    &lt;li&gt;Led client meetings; supported audits and system-integration projects to drive efficiency.&lt;/li&gt;\n  &lt;/ul&gt;\n&lt;/div&gt;\n\n&lt;div class=\"cv-item\"&gt;\n  &lt;div class=\"cv-item-head\"&gt;\n    &lt;div&gt;\n      &lt;h3&gt;Quanterix&lt;/h3&gt;\n      &lt;div class=\"cv-sub\"&gt;Technical Support Coordinator · Billerica, MA&lt;/div&gt;\n    &lt;/div&gt;\n    &lt;div class=\"cv-dates\"&gt;Dec 2018 – Feb 2021&lt;/div&gt;\n  &lt;/div&gt;\n  &lt;ul&gt;\n    &lt;li&gt;Directed global service requests via Salesforce; triaged JIRA tickets by urgency and category.&lt;/li&gt;\n    &lt;li&gt;Created a training program (docs + how-to videos) to onboard coordinators.&lt;/li&gt;\n    &lt;li&gt;Managed instrument inventory and maintenance; audited closed cases for process compliance.&lt;/li&gt;\n  &lt;/ul&gt;\n&lt;/div&gt;\n\n&lt;div class=\"cv-item\"&gt;\n  &lt;div class=\"cv-item-head\"&gt;\n    &lt;div&gt;\n      &lt;h3&gt;Liberty Mutual Insurance&lt;/h3&gt;\n      &lt;div class=\"cv-sub\"&gt;Recovery Technician I · Weston, MA&lt;/div&gt;\n    &lt;/div&gt;\n    &lt;div class=\"cv-dates\"&gt;Jun 2018 – Dec 2018&lt;/div&gt;\n  &lt;/div&gt;\n  &lt;ul&gt;\n    &lt;li&gt;Processed workers’ compensation recovery claims; investigated third-party liabilities and negotiated settlements.&lt;/li&gt;\n  &lt;/ul&gt;\n&lt;/div&gt;\n\n\n\n\n  &lt;div class=\"cv-item-head\"&gt;\n    &lt;div&gt;\n      &lt;h3&gt;Bridgewater State University&lt;/h3&gt;\n      &lt;div class=\"cv-sub\"&gt;B.S. in Biochemistry · Bridgewater, MA&lt;/div&gt;\n    &lt;/div&gt;\n    &lt;div class=\"cv-dates\"&gt;May 2018&lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n\n\n\n\n  &lt;div&gt;\n    &lt;h4&gt;Technical&lt;/h4&gt;\n    &lt;ul class=\"cv-tags\"&gt;\n      &lt;li&gt;Python&lt;/li&gt;&lt;li&gt;PySpark&lt;/li&gt;&lt;li&gt;SQL&lt;/li&gt;&lt;li&gt;Power BI&lt;/li&gt;\n      &lt;li&gt;Salesforce&lt;/li&gt;&lt;li&gt;JIRA&lt;/li&gt;&lt;li&gt;SAP&lt;/li&gt;&lt;li&gt;Microsoft Office&lt;/li&gt;\n    &lt;/ul&gt;\n  &lt;/div&gt;\n  &lt;div&gt;\n    &lt;h4&gt;Core&lt;/h4&gt;\n    &lt;ul class=\"cv-tags\"&gt;\n      &lt;li&gt;Data Analysis&lt;/li&gt;&lt;li&gt;Financial Reporting&lt;/li&gt;&lt;li&gt;Time Management&lt;/li&gt;\n      &lt;li&gt;Communication&lt;/li&gt;&lt;li&gt;Stakeholder Management&lt;/li&gt;\n    &lt;/ul&gt;\n  &lt;/div&gt;\n  &lt;div&gt;\n    &lt;h4&gt;Languages&lt;/h4&gt;\n    &lt;ul class=\"cv-tags\"&gt;\n      &lt;li&gt;English&lt;/li&gt;&lt;li&gt;Spanish&lt;/li&gt;\n    &lt;/ul&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n\n\nEOF\nquarto preview /home/ubuntu/cindyrg.github.io/cv.qmd –no-browser –no-watch-inputs"
+  },
+  {
+    "objectID": "cv.html#summary",
+    "href": "cv.html#summary",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Senior Business Analyst who thrives at the intersection of business strategy and data pipelines. Experienced translating messy data into decisions—building predictive models, automating reporting, and presenting insights to stakeholders."
   }
 ]
