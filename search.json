@@ -2,9 +2,44 @@
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "Cindy Guzman",
+    "title": "Projects",
     "section": "",
-    "text": "---\ntitle: \"Projects\"\n---\n\n## Salary Prediction on Lightcast Job Postings\n**Stack:** PySpark, Quarto, Python • **Focus:** regression modeling & feature engineering  \n- Built GLR, Linear, Polynomial (quadratic in `MIN_YEARS_EXPERIENCE`), and Random Forest\n- One-hot encoding, frequency ordering, and sanity filters\n- Evaluated on RMSE, MAE, R² with clean test splits\n![Example plot](assets/salary-plot.png)\n\n**Repo/Write-up:** (add link)\n\n---\n\n## Skills Radar (Team Portfolio)\nTiny app that displays team skill levels (Python/SQL/ML/Cloud) and exports visuals for decks.  \n**Stack:** Python, pandas, Quarto\n\n---\n\n## Quarto Portfolio Site (this site)\nDeployed with GitHub Pages & GH Actions; optimized images and navigation."
+    "text": "Below are a few highlights that show how I approach real problems end-to-end: clarify the question, build reliable data/ML pipelines, and communicate results to decision-makers.\n\n\n\nRole: Modeler & Analyst • Stack: PySpark, Python, Quarto • Topics: feature engineering, regression, evaluation\n\nBuilt and compared GLR, Linear, Polynomial (quadratic in MIN_YEARS_EXPERIENCE), and Random Forest regressors.\nEncoded categorical fields (freq-ordered + one-hot), enforced sanity filters, and assembled numeric features.\nAssessed on RMSE, MAE, R² with a clean 80/20 train–test split; produced actual-vs-pred visuals and feature importance.\nDelivered a Quarto report with reproducible code and figures.\n\nHighlights - Fast, inspectable pipeline with consistent splits and metric tables. - Clear visuals for stakeholder readouts (test set focus, no leakage).\nLinks - Add when ready: Repository • Report\n\n\n\nPlot placeholder\n\n\n\n\n\n\nRole: Analyst (Accounting → Analytics) • Stack: SQL, Python, Power BI\n\nStreamlined AP/close workflows supporting $50M in transactions and $1–3M weekly payments.\nAutomated reconciliation checks and reserve/asset-coverage calculations to reduce manual effort.\nPartnered with finance leadership to align metrics and definitions; published refreshed dashboards.\n\nImpact - Fewer reconciliation defects and faster time-to-close.\n\n\n\n\nRole: Ops & Analytics • Stack: Salesforce, JIRA, Excel/Power BI\n\nTriaged global service requests, standardized categories/SLAs, and audited closed cases monthly.\nDesigned a training program (docs + how-to videos) for new coordinators.\nImproved throughput and documentation quality across the service desk.\n\nImpact - Clear ownership, faster routing, and more reliable reporting.\n\n\n\n\nRole: Designer/Implementer • Stack: Quarto, GitHub Actions/Pages\n\nBuilt an accessible, fast personal site with a minimal brand.\nOrganized for employers: About, Projects, CV, Contact (no “data cleaning/exploration” tabs).\nImage optimization and consistent typography for a professional look.\n\nLinks - Add when live: Site URL • Source Repo\n\n\n\n\n\nPackaging the Lightcast pipeline for parameterized re-runs and CI checks.\nAdding lightweight experiment tracking and a model comparison dashboard."
+  },
+  {
+    "objectID": "projects.html#salary-prediction-on-lightcast-job-postings",
+    "href": "projects.html#salary-prediction-on-lightcast-job-postings",
+    "title": "Projects",
+    "section": "",
+    "text": "Role: Modeler & Analyst • Stack: PySpark, Python, Quarto • Topics: feature engineering, regression, evaluation\n\nBuilt and compared GLR, Linear, Polynomial (quadratic in MIN_YEARS_EXPERIENCE), and Random Forest regressors.\nEncoded categorical fields (freq-ordered + one-hot), enforced sanity filters, and assembled numeric features.\nAssessed on RMSE, MAE, R² with a clean 80/20 train–test split; produced actual-vs-pred visuals and feature importance.\nDelivered a Quarto report with reproducible code and figures.\n\nHighlights - Fast, inspectable pipeline with consistent splits and metric tables. - Clear visuals for stakeholder readouts (test set focus, no leakage).\nLinks - Add when ready: Repository • Report\n\n\n\nPlot placeholder"
+  },
+  {
+    "objectID": "projects.html#financial-reporting-automation-liberty-mutual",
+    "href": "projects.html#financial-reporting-automation-liberty-mutual",
+    "title": "Projects",
+    "section": "",
+    "text": "Role: Analyst (Accounting → Analytics) • Stack: SQL, Python, Power BI\n\nStreamlined AP/close workflows supporting $50M in transactions and $1–3M weekly payments.\nAutomated reconciliation checks and reserve/asset-coverage calculations to reduce manual effort.\nPartnered with finance leadership to align metrics and definitions; published refreshed dashboards.\n\nImpact - Fewer reconciliation defects and faster time-to-close."
+  },
+  {
+    "objectID": "projects.html#technical-support-ops-optimization-quanterix",
+    "href": "projects.html#technical-support-ops-optimization-quanterix",
+    "title": "Projects",
+    "section": "",
+    "text": "Role: Ops & Analytics • Stack: Salesforce, JIRA, Excel/Power BI\n\nTriaged global service requests, standardized categories/SLAs, and audited closed cases monthly.\nDesigned a training program (docs + how-to videos) for new coordinators.\nImproved throughput and documentation quality across the service desk.\n\nImpact - Clear ownership, faster routing, and more reliable reporting."
+  },
+  {
+    "objectID": "projects.html#this-website-quarto-github-pages",
+    "href": "projects.html#this-website-quarto-github-pages",
+    "title": "Projects",
+    "section": "",
+    "text": "Role: Designer/Implementer • Stack: Quarto, GitHub Actions/Pages\n\nBuilt an accessible, fast personal site with a minimal brand.\nOrganized for employers: About, Projects, CV, Contact (no “data cleaning/exploration” tabs).\nImage optimization and consistent typography for a professional look.\n\nLinks - Add when live: Site URL • Source Repo"
+  },
+  {
+    "objectID": "projects.html#what-im-exploring-next",
+    "href": "projects.html#what-im-exploring-next",
+    "title": "Projects",
+    "section": "",
+    "text": "Packaging the Lightcast pipeline for parameterized re-runs and CI checks.\nAdding lightweight experiment tracking and a model comparison dashboard."
   },
   {
     "objectID": "cv.html",
@@ -30,22 +65,15 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About You",
+    "title": "About Me",
     "section": "",
-    "text": "Cindy headshot"
-  },
-  {
-    "objectID": "about.html#about-me",
-    "href": "about.html#about-me",
-    "title": "About You",
-    "section": "About Me",
-    "text": "About Me\nI’m a Senior Business Analyst who loves the zone where business stories meet data pipelines. - Background: B.S. Biochemistry • First-gen professional - Toolbelt: Python, PySpark, SQL, Quarto, Git/GitHub, AWS EC2 - Interests: analytics for hiring, forecasting, and customer experience"
+    "text": "I’m a Senior Business Analyst at Liberty Mutual Insurance who thrives at the intersection of business strategy and data pipelines.\nI bring a unique mix of technical expertise and business acumen to every project — whether it’s building predictive models, automating reporting, or presenting insights to stakeholders."
   },
   {
     "objectID": "about.html#career-goals",
     "href": "about.html#career-goals",
-    "title": "About You",
+    "title": "About Me",
     "section": "Career Goals",
-    "text": "Career Goals\n\nShip insight-driven analytics that move metrics\nGrow into Analytics/ML Product work with end-to-end ownership"
+    "text": "Career Goals\n\n🚀 Ship insight-driven analytics that move metrics\n\n📊 Grow into Analytics/ML Product roles with end-to-end ownership"
   }
 ]
