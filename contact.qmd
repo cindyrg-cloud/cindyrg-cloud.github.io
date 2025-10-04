@@ -1,13 +1,28 @@
-```         
 ---
 title: "Contact"
+format:
+  html:
+    sanitize: false   # needed so the HTML form renders
 ---
 
-Let’s connect!
+::: {.contact-card}
+## Send me a message
 
-- 📧 Email: cindy.r.guzman@example.com
-- 💼 LinkedIn: https://www.linkedin.com/in/your-handle
-- 🐙 GitHub:  https://github.com/your-handle
 
-> Prefer a form? Use a service like Formspree and embed it here later.
-```
+<div class="contact-form">
+  <form method="POST" action="https://formspree.io/f/YOUR_FORMSPREE_ID">
+    <input type="text" name="name" placeholder="Your name" required />
+    <input type="email" name="_replyto" placeholder="Your email" required />
+    <textarea name="message" rows="6" placeholder="Your message" required></textarea>
+    <!-- Honeypot field to reduce spam -->
+    <input type="text" name="_gotcha" style="display:none" />
+    <button type="submit">Send</button>
+  </form>
+</div>
+
+---
+
+### Or reach me here:
+- 💼 LinkedIn: [www.linkedin.com/in/cindy-guzman-9299ab1b1](https://www.linkedin.com/in/cindy-guzman-9299ab1b1)  
+- 🐙 GitHub: [github.com/your-handle](https://github.com/cindyrg-cloud)  
+:::
