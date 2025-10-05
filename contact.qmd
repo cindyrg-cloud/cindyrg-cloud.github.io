@@ -2,27 +2,122 @@
 title: "Contact"
 format:
   html:
-    sanitize: false   # needed so the HTML form renders
+    sanitize: false
 ---
 
 ::: {.contact-card}
 ## Send me a message
 
-
+<!-- ===== OPTION A: REDIRECT TO THANK-YOU PAGE ===== -->
+<!-- Uncomment this section if you prefer redirect behavior -->
+<!--
 <div class="contact-form">
-  <form method="POST" action="https://formspree.io/f/YOUR_FORMSPREE_ID">
-    <input type="text" name="name" placeholder="Your name" required />
-    <input type="email" name="_replyto" placeholder="Your email" required />
-    <textarea name="message" rows="6" placeholder="Your message" required></textarea>
-    <!-- Honeypot field to reduce spam -->
-    <input type="text" name="_gotcha" style="display:none" />
+  <form method="POST" action="https://formspree.io/f/myznpnpv" accept-charset="UTF-8">
+    <label>
+      Name
+      <input type="text" name="name" required autocomplete="name" />
+    </label>
+
+    <label>
+      Email
+      <input type="email" name="_replyto" required autocomplete="email" />
+    </label>
+
+    <label>
+      Message
+      <textarea name="message" rows="6" required></textarea>
+    </label>
+
+    <input type="hidden" name="_subject" value="New message from cindyrg site" />
+    <input type="hidden" name="_next" value="/thanks.html" />
+    <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+
     <button type="submit">Send</button>
   </form>
 </div>
+-->
+
+<!-- ===== OPTION B: INLINE SUCCESS MESSAGE ===== -->
+<div class="contact-form">
+  <form id="contactForm" method="POST" action="https://formspree.io/f/myznpnpv" accept-charset="UTF-8">
+    <label>
+      Name
+      <input type="text" name="name" required autocomplete="name" />
+    </label>
+
+    <label>
+      Email
+      <input type="email" name="_replyto" required autocomplete="email" />
+    </label>
+
+    <label>
+      Message
+      <textarea name="message" rows="6" required></textarea>
+    </label>
+
+    <input type="hidden" name="_subject" value="New message from cindyrg site" />
+    <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+
+    <button type="submit">Send</button>
+    <p id="formStatus" aria-live="polite" style="margin:0.5rem 0 0;"></p>
+  </form>
+</div>
+:::
 
 ---
 
 ### Or reach me here:
 - 💼 LinkedIn: [www.linkedin.com/in/cindy-guzman-9299ab1b1](https://www.linkedin.com/in/cindy-guzman-9299ab1b1)  
 - 🐙 GitHub: [github.com/cindyrg-cloud](https://github.com/cindyrg-cloud)  
-:::
+
+<script>
+const form = document.getElementById('contactForm');
+const statusEl = document.getElementById('formStatus');
+if (form) {
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    statusEl.textContent = '';
+    const btn = form.querySelector('button[type="submit"]');
+    btn.disabled = true;
+    try {
+      const res = await fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { 'Accept': 'application/json' }
+      });
+      if (res.ok) {
+        form.reset();
+        statusEl.textContent = 'Thanks! Your message was sent.';
+      } else {
+        statusEl.textContent = 'Sorry—there was a problem sending your message.';
+      }
+    } catch (err) {
+      statusEl.textContent = 'Network error. Please try again.';
+    } finally {
+      btn.disabled = false;
+    }
+  });
+}
+</script>
+
+<style>
+.contact-card { 
+  max-width: 720px; 
+  margin: 2rem auto; 
+  padding: 1.5rem; 
+  border-radius: 16px; 
+  box-shadow: 0 6px 24px rgba(0,0,0,.08); 
+}
+.contact-form form { display: grid; gap: 1rem; }
+label { display: grid; gap: .35rem; font-weight: 600; }
+input, textarea, button { 
+  padding: .85rem; 
+  border: 1px solid #ddd; 
+  border-radius: 10px; 
+  font: inherit; 
+}
+button { border: 0; cursor: pointer; font-weight: 700; }
+button:hover { filter: brightness(0.98); }
+#formStatus { font-weight: 600; color: #187145; }
+</style>
+
