@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Contact – Cindy Guzman</title>
+<title>Thanks! – Cindy Guzman</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -107,7 +107,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./contact.html" aria-current="page"> 
+    <a class="nav-link" href="./contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -126,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul class="collapse">
-  <li><a href="#send-me-a-message" id="toc-send-me-a-message" class="nav-link active" data-scroll-target="#send-me-a-message">Send me a message</a></li>
+  <li><a href="#thank-you" id="toc-thank-you" class="nav-link active" data-scroll-target="#thank-you">Thank you!</a></li>
   </ul>
 </nav>
     </div>
@@ -135,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Contact</h1>
+<h1 class="title">Thanks!</h1>
 </div>
 
 
@@ -152,110 +152,9 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="send-me-a-message" class="level2 contact-card">
-<h2 class="anchored" data-anchor-id="send-me-a-message">Send me a message</h2>
-<!-- ===== OPTION A: REDIRECT TO THANK-YOU PAGE ===== -->
-<!-- Uncomment this section if you prefer redirect behavior -->
-<!--
-<div class="contact-form">
-  <form method="POST" action="https://formspree.io/f/myznpnpv" accept-charset="UTF-8">
-    <label>
-      Name
-      <input type="text" name="name" required autocomplete="name" />
-    </label>
-
-    <label>
-      Email
-      <input type="email" name="_replyto" required autocomplete="email" />
-    </label>
-
-    <label>
-      Message
-      <textarea name="message" rows="6" required></textarea>
-    </label>
-
-    <input type="hidden" name="_subject" value="New message from cindyrg site" />
-    <input type="hidden" name="_next" value="/thanks.html" />
-    <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
-
-    <button type="submit">Send</button>
-  </form>
-</div>
--->
-<!-- ===== OPTION B: INLINE SUCCESS MESSAGE ===== -->
-<div class="contact-form">
-<form id="contactForm" method="POST" action="https://formspree.io/f/myznpnpv" accept-charset="UTF-8">
-<p><label> Name <input type="text" name="name" required="" autocomplete="name"> </label></p>
-<p><label> Email <input type="email" name="_replyto" required="" autocomplete="email"> </label></p>
-<label> Message
-<textarea name="message" rows="6" required=""></textarea>
-<p></p>
-<p><input type="hidden" name="_subject" value="New message from cindyrg site"> <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off"></p>
-<button type="submit">
-Send
-</button>
-<p id="formStatus" aria-live="polite" style="margin:0.5rem 0 0;">
-</p>
-
-</label></form></div>
-</section>
-<hr>
-<section id="or-reach-me-here" class="level3">
-<h3 class="anchored" data-anchor-id="or-reach-me-here">Or reach me here:</h3>
-<ul>
-<li>💼 LinkedIn: <a href="https://www.linkedin.com/in/cindy-guzman-9299ab1b1">www.linkedin.com/in/cindy-guzman-9299ab1b1</a><br>
-</li>
-<li>🐙 GitHub: <a href="https://github.com/cindyrg-cloud">github.com/cindyrg-cloud</a></li>
-</ul>
-<script>
-const form = document.getElementById('contactForm');
-const statusEl = document.getElementById('formStatus');
-if (form) {
-  form.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    statusEl.textContent = '';
-    const btn = form.querySelector('button[type="submit"]');
-    btn.disabled = true;
-    try {
-      const res = await fetch(form.action, {
-        method: 'POST',
-        body: new FormData(form),
-        headers: { 'Accept': 'application/json' }
-      });
-      if (res.ok) {
-        form.reset();
-        statusEl.textContent = 'Thanks! Your message was sent.';
-      } else {
-        statusEl.textContent = 'Sorry—there was a problem sending your message.';
-      }
-    } catch (err) {
-      statusEl.textContent = 'Network error. Please try again.';
-    } finally {
-      btn.disabled = false;
-    }
-  });
-}
-</script>
-<style>
-.contact-card { 
-  max-width: 720px; 
-  margin: 2rem auto; 
-  padding: 1.5rem; 
-  border-radius: 16px; 
-  box-shadow: 0 6px 24px rgba(0,0,0,.08); 
-}
-.contact-form form { display: grid; gap: 1rem; }
-label { display: grid; gap: .35rem; font-weight: 600; }
-input, textarea, button { 
-  padding: .85rem; 
-  border: 1px solid #ddd; 
-  border-radius: 10px; 
-  font: inherit; 
-}
-button { border: 0; cursor: pointer; font-weight: 700; }
-button:hover { filter: brightness(0.98); }
-#formStatus { font-weight: 600; color: #187145; }
-</style>
+<section id="thank-you" class="level2">
+<h2 class="anchored" data-anchor-id="thank-you">Thank you!</h2>
+<p>Your message has been sent successfully. I’ll get back to you soon. 💌</p>
 
 
 </section>
