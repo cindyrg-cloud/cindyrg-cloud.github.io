@@ -165,17 +165,27 @@ img { max-width: 100%; }
 }
 
 /* ============================
-   Kylo’s Corner navbar styling
+   Kylo’s Corner navbar styling (rainbow!)
    ============================ */
 .navbar-nav .nav-link[href$="kylo.html"],
 .navbar-nav .nav-link[href$="kylo.qmd"],
 .navbar-nav .nav-link[href*="kylo"] {
   font-family: 'Gloria Hallelujah', cursive !important;
   font-weight: 700;
-  letter-spacing: .3px;
+  letter-spacing: .4px;
   font-size: 1.05rem;
-  color: #2a6b4f !important;   /* soft green to make it pop */
-  text-shadow: 1px 1px 0 #ffed6f;
+  background: linear-gradient(90deg, 
+    #ff0000, /* red */
+    #ff7a00, /* orange */
+    #ffee00, /* yellow */
+    #00ff85, /* green */
+    #00bfff, /* blue */
+    #8a2be2, /* purple */
+    #ff00c8  /* pink */
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 /* Keep the style when active/selected/hover */
@@ -183,6 +193,18 @@ img { max-width: 100%; }
 .navbar-nav .nav-link[href*="kylo"]:hover,
 .navbar-nav .nav-link[href*="kylo"]:focus {
   font-family: 'Gloria Hallelujah', cursive !important;
-  color: #245b42 !important;
-  text-shadow: 1px 1px 0 #ffed6f;
+  background: linear-gradient(90deg, 
+    #ff00c8,
+    #8a2be2,
+    #00bfff,
+    #00ff85,
+    #ffee00,
+    #ff7a00,
+    #ff0000
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
 }
