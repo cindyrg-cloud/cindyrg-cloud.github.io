@@ -1,6 +1,7 @@
 // kylo-lightbox.js — simple modal for .kylo-grid images
 document.addEventListener("DOMContentLoaded", () => {
-  const grid = document.querySelector(".kylo-grid, .kylo-masonry");
+  // was: const grid = document.querySelector(".kylo-grid, .kylo-masonry");
+const grid = document.querySelector(".kylo-grid, .kylo-masonry, .kylo-uniform");
   if (!grid) return;
 
   const imgs = Array.from(grid.querySelectorAll("img"));

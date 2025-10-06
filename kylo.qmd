@@ -63,6 +63,12 @@ Welcome to Kylo’s Corner — starring **Kylo the Bichon Frise**, professional 
 <img src="assets/kylo/kylo-5.jpg" alt="Kylo exploring outside"/>
 
 </figure>
+
+<figure class="kylo-masonry-item">
+
+<img src="assets/kylo/kylo-6.jpg" alt="Kylo being extra cute" loading="lazy">
+
+</figure>
 :::
 
 ## Favorite Parks & Adventures
