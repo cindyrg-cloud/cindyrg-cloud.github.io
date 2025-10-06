@@ -77,27 +77,6 @@
     "text": "Technical\n\n\n\nPython\n\n\nPySpark\n\n\nSQL\n\n\nPower BI\n\n\nSalesforce\n\n\nJIRA\n\n\nSAP\n\n\nMicrosoft Office\n\n\nCore\n\n\n\nData Analysis\n\n\nFinancial Reporting\n\n\nTime Management\n\n\nCommunication\n\n\nStakeholder Management\n\n\nLanguages\n\n\n\nEnglish\n\n\nSpanish"
   },
   {
-    "objectID": "thanks.html",
-    "href": "thanks.html",
-    "title": "Thanks!",
-    "section": "",
-    "text": "Your message has been sent successfully. I’ll get back to you soon. 💌"
-  },
-  {
-    "objectID": "thanks.html#thank-you",
-    "href": "thanks.html#thank-you",
-    "title": "Thanks!",
-    "section": "",
-    "text": "Your message has been sent successfully. I’ll get back to you soon. 💌"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome",
-    "section": "",
-    "text": "Hi, I’m Cindy Guzman 👋\nSenior Business Analyst @ Liberty Mutual • MS Applied Business Analytics (BU)\nI translate messy, real-world data into decisions. On this site you’ll find: - Projects showing modeling, visualization, and product thinking - A concise CV (downloadable PDF) - Ways to contact me\n\nCurrently exploring salary prediction with Lightcast job-posting data, model comparison (GLR, Linear, Polynomial, Random Forest), and clean MLOps habits on EC2."
-  },
-  {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact",
@@ -110,6 +89,27 @@
     "title": "Contact",
     "section": "",
     "text": "Name  \n Email  \n Message\n\n\n \n\nSend"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "Hi, I’m Cindy Guzman 👋\nSenior Business Analyst @ Liberty Mutual • MS Applied Business Analytics (BU)\nI translate messy, real-world data into decisions. On this site you’ll find: - Projects showing modeling, visualization, and product thinking - A concise CV (downloadable PDF) - Ways to contact me\n\nCurrently exploring salary prediction with Lightcast job-posting data, model comparison (GLR, Linear, Polynomial, Random Forest), and clean MLOps habits on EC2."
+  },
+  {
+    "objectID": "thanks.html",
+    "href": "thanks.html",
+    "title": "Thanks!",
+    "section": "",
+    "text": "Your message has been sent successfully. I’ll get back to you soon. 💌"
+  },
+  {
+    "objectID": "thanks.html#thank-you",
+    "href": "thanks.html#thank-you",
+    "title": "Thanks!",
+    "section": "",
+    "text": "Your message has been sent successfully. I’ll get back to you soon. 💌"
   },
   {
     "objectID": "about.html",
