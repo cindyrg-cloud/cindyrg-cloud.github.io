@@ -27,7 +27,7 @@ format:
     smooth-scroll: true
     css: styles.css
     include-after-body: 
-      - pawtrail.js
+       - pawtrail.js
 
 # Optional: nice URLs (no .html in links)
 metadata-files: []
