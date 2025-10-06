@@ -4,42 +4,42 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Below are a few highlights that show how I approach real problems end-to-end: clarify the question, build reliable data/ML pipelines, and communicate results to decision-makers.\n\n\n\nRole: Modeler & Analyst • Stack: PySpark, Python, Quarto • Topics: feature engineering, regression, evaluation\n\nBuilt and compared GLR, Linear, Polynomial (quadratic in MIN_YEARS_EXPERIENCE), and Random Forest regressors.\nEncoded categorical fields (freq-ordered + one-hot), enforced sanity filters, and assembled numeric features.\nAssessed on RMSE, MAE, R² with a clean 80/20 train–test split; produced actual-vs-pred visuals and feature importance.\nDelivered a Quarto report with reproducible code and figures.\n\nHighlights - Fast, inspectable pipeline with consistent splits and metric tables. - Clear visuals for stakeholder readouts (test set focus, no leakage).\nLinks - Add when ready: Repository • Report\n\n\n\nPlot placeholder\n\n\n\n\n\n\nRole: Analyst (Accounting → Analytics) • Stack: SQL, Python, Power BI\n\nStreamlined AP/close workflows supporting $50M in transactions and $1–3M weekly payments.\nAutomated reconciliation checks and reserve/asset-coverage calculations to reduce manual effort.\nPartnered with finance leadership to align metrics and definitions; published refreshed dashboards.\n\nImpact - Fewer reconciliation defects and faster time-to-close.\n\n\n\n\nRole: Ops & Analytics • Stack: Salesforce, JIRA, Excel/Power BI\n\nTriaged global service requests, standardized categories/SLAs, and audited closed cases monthly.\nDesigned a training program (docs + how-to videos) for new coordinators.\nImproved throughput and documentation quality across the service desk.\n\nImpact - Clear ownership, faster routing, and more reliable reporting.\n\n\n\n\nRole: Designer/Implementer • Stack: Quarto, GitHub Actions/Pages\n\nBuilt an accessible, fast personal site with a minimal brand.\nOrganized for employers: About, Projects, CV, Contact (no “data cleaning/exploration” tabs).\nImage optimization and consistent typography for a professional look.\n\nLinks - Add when live: Site URL • Source Repo\n\n\n\n\n\nPackaging the Lightcast pipeline for parameterized re-runs and CI checks.\nAdding lightweight experiment tracking and a model comparison dashboard."
+    "text": "Below are a few highlights that show how I approach real problems end-to-end: clarify the question, build reliable data/ML pipelines, and communicate results to decision-makers."
   },
   {
     "objectID": "projects.html#salary-prediction-on-lightcast-job-postings",
     "href": "projects.html#salary-prediction-on-lightcast-job-postings",
     "title": "Projects",
-    "section": "",
-    "text": "Role: Modeler & Analyst • Stack: PySpark, Python, Quarto • Topics: feature engineering, regression, evaluation\n\nBuilt and compared GLR, Linear, Polynomial (quadratic in MIN_YEARS_EXPERIENCE), and Random Forest regressors.\nEncoded categorical fields (freq-ordered + one-hot), enforced sanity filters, and assembled numeric features.\nAssessed on RMSE, MAE, R² with a clean 80/20 train–test split; produced actual-vs-pred visuals and feature importance.\nDelivered a Quarto report with reproducible code and figures.\n\nHighlights - Fast, inspectable pipeline with consistent splits and metric tables. - Clear visuals for stakeholder readouts (test set focus, no leakage).\nLinks - Add when ready: Repository • Report\n\n\n\nPlot placeholder"
+    "section": "Salary Prediction on Lightcast Job Postings",
+    "text": "Salary Prediction on Lightcast Job Postings\nRole: Modeler & Analyst • Stack: PySpark, Python, Quarto • Topics: feature engineering, regression, evaluation\n\nBuilt and compared GLR, Linear, Polynomial (quadratic in MIN_YEARS_EXPERIENCE), and Random Forest regressors.\nEncoded categorical fields (freq-ordered + one-hot), enforced sanity filters, and assembled numeric features.\nAssessed on RMSE, MAE, R² with a clean 80/20 train–test split; produced actual-vs-pred visuals and feature importance.\nDelivered a Quarto report with reproducible code and figures.\n\nHighlights - Fast, inspectable pipeline with consistent splits and metric tables. - Clear visuals for stakeholder readouts (test set focus, no leakage).\nLinks - Add when ready: Repository • Report\n\n\n\nPlot placeholder"
   },
   {
     "objectID": "projects.html#financial-reporting-automation-liberty-mutual",
     "href": "projects.html#financial-reporting-automation-liberty-mutual",
     "title": "Projects",
-    "section": "",
-    "text": "Role: Analyst (Accounting → Analytics) • Stack: SQL, Python, Power BI\n\nStreamlined AP/close workflows supporting $50M in transactions and $1–3M weekly payments.\nAutomated reconciliation checks and reserve/asset-coverage calculations to reduce manual effort.\nPartnered with finance leadership to align metrics and definitions; published refreshed dashboards.\n\nImpact - Fewer reconciliation defects and faster time-to-close."
+    "section": "Financial Reporting Automation (Liberty Mutual)",
+    "text": "Financial Reporting Automation (Liberty Mutual)\nRole: Analyst (Accounting → Analytics) • Stack: SQL, Python, Power BI\n\nStreamlined AP/close workflows supporting $50M in transactions and $1–3M weekly payments.\nAutomated reconciliation checks and reserve/asset-coverage calculations to reduce manual effort.\nPartnered with finance leadership to align metrics and definitions; published refreshed dashboards.\n\nImpact - Fewer reconciliation defects and faster time-to-close."
   },
   {
     "objectID": "projects.html#technical-support-ops-optimization-quanterix",
     "href": "projects.html#technical-support-ops-optimization-quanterix",
     "title": "Projects",
-    "section": "",
-    "text": "Role: Ops & Analytics • Stack: Salesforce, JIRA, Excel/Power BI\n\nTriaged global service requests, standardized categories/SLAs, and audited closed cases monthly.\nDesigned a training program (docs + how-to videos) for new coordinators.\nImproved throughput and documentation quality across the service desk.\n\nImpact - Clear ownership, faster routing, and more reliable reporting."
+    "section": "Technical Support Ops Optimization (Quanterix)",
+    "text": "Technical Support Ops Optimization (Quanterix)\nRole: Ops & Analytics • Stack: Salesforce, JIRA, Excel/Power BI\n\nTriaged global service requests, standardized categories/SLAs, and audited closed cases monthly.\nDesigned a training program (docs + how-to videos) for new coordinators.\nImproved throughput and documentation quality across the service desk.\n\nImpact - Clear ownership, faster routing, and more reliable reporting."
   },
   {
     "objectID": "projects.html#this-website-quarto-github-pages",
     "href": "projects.html#this-website-quarto-github-pages",
     "title": "Projects",
-    "section": "",
-    "text": "Role: Designer/Implementer • Stack: Quarto, GitHub Actions/Pages\n\nBuilt an accessible, fast personal site with a minimal brand.\nOrganized for employers: About, Projects, CV, Contact (no “data cleaning/exploration” tabs).\nImage optimization and consistent typography for a professional look.\n\nLinks - Add when live: Site URL • Source Repo"
+    "section": "This Website (Quarto + GitHub Pages)",
+    "text": "This Website (Quarto + GitHub Pages)\nRole: Designer/Implementer • Stack: Quarto, GitHub Actions/Pages\n\nBuilt an accessible, fast personal site with a minimal brand.\nOrganized for employers: About, Projects, CV, Contact (no “data cleaning/exploration” tabs).\nImage optimization and consistent typography for a professional look.\n\nLinks - Add when live: Site URL • Source Repo"
   },
   {
     "objectID": "projects.html#what-im-exploring-next",
     "href": "projects.html#what-im-exploring-next",
     "title": "Projects",
-    "section": "",
-    "text": "Packaging the Lightcast pipeline for parameterized re-runs and CI checks.\nAdding lightweight experiment tracking and a model comparison dashboard."
+    "section": "What I’m Exploring Next",
+    "text": "What I’m Exploring Next\n\nPackaging the Lightcast pipeline for parameterized re-runs and CI checks.\nAdding lightweight experiment tracking and a model comparison dashboard."
   },
   {
     "objectID": "cv.html",
