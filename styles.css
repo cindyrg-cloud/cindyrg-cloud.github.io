@@ -42,7 +42,7 @@ img { max-width: 100%; }
   max-width: 100%;
 }
 .project-card p {
-  color: #4b5563; /* slightly muted text */
+  color: #ffffff; /* force white in dark mode */
   line-height: 1.6;
 }
 
@@ -60,9 +60,9 @@ img { max-width: 100%; }
 }
 
 .cv-name h1 { margin: 0; }
-.cv-role { font-weight: 600; color: #4b5563; }
+.cv-role { font-weight: 600; color: #ffffff; }
 
-.cv-contacts { text-align: right; font-size: .95rem; color: #374151; }
+.cv-contacts { text-align: right; font-size: .95rem; color: #ffffff; }
 .cv-contacts a { text-decoration: none; }
 
 .cv-downloads { margin: 1rem 0 1.25rem 0; display: flex; gap: .5rem; }
@@ -70,7 +70,7 @@ img { max-width: 100%; }
   display: inline-block; padding: .5rem .85rem; border-radius: 8px;
   border: 1px solid #111827; text-decoration: none; font-weight: 600;
 }
-.cv-btn.ghost { border-color: #9ca3af; color: #374151; }
+.cv-btn.ghost { border-color: #9ca3af; color: #ffffff; }
 
 .cv-section { margin-top: 1.25rem; }
 .cv-section h2 { border-left: 4px solid #111827; padding-left: .5rem; margin-bottom: .5rem; }
@@ -80,8 +80,8 @@ img { max-width: 100%; }
   display: grid; grid-template-columns: 1fr auto; gap: .5rem; align-items: baseline;
 }
 .cv-item h3 { margin: 0; }
-.cv-sub { color: #4b5563; }
-.cv-dates { color: #6b7280; font-weight: 600; white-space: nowrap; }
+.cv-sub { color: #ffffff; }
+.cv-dates { color: #ffffff; font-weight: 600; white-space: nowrap; }
 
 .cv-grid {
   display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem;
@@ -164,51 +164,6 @@ img { max-width: 100%; }
   box-shadow: 0 10px 24px rgba(0,0,0,.12);
 }
 
-/* ============================
-   Kylo’s Corner navbar styling (rainbow!)
-   ============================ */
-.navbar-nav .nav-link[href$="kylo.html"],
-.navbar-nav .nav-link[href$="kylo.qmd"],
-.navbar-nav .nav-link[href*="kylo"] {
-  font-family: 'Gloria Hallelujah', cursive !important;
-  font-weight: 700;
-  letter-spacing: .4px;
-  font-size: 1.05rem;
-  background: linear-gradient(90deg, 
-    #ff0000, /* red */
-    #ff7a00, /* orange */
-    #ffee00, /* yellow */
-    #00ff85, /* green */
-    #00bfff, /* blue */
-    #8a2be2, /* purple */
-    #ff00c8  /* pink */
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-/* Keep the style when active/selected/hover */
-.navbar-nav .nav-link.active[href*="kylo"],
-.navbar-nav .nav-link[href*="kylo"]:hover,
-.navbar-nav .nav-link[href*="kylo"]:focus {
-  font-family: 'Gloria Hallelujah', cursive !important;
-  background: linear-gradient(90deg, 
-    #ff00c8,
-    #8a2be2,
-    #00bfff,
-    #00ff85,
-    #ffee00,
-    #ff7a00,
-    #ff0000
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  transform: scale(1.05);
-  transition: transform 0.2s ease;
-}
-
 /* Paw-print hover trail styles — subtle 🐾 */
 .paw-container {
   position: fixed;
@@ -217,7 +172,6 @@ img { max-width: 100%; }
   overflow: hidden;
   z-index: 9999;
 }
-
 .paw-print {
   position: absolute;
   opacity: 0;
@@ -225,7 +179,6 @@ img { max-width: 100%; }
   filter: drop-shadow(0 1px 2px rgba(0,0,0,.15));
   animation: pawTrailFade 0.8s ease-out forwards; /* shorter & softer */
 }
-
 @keyframes pawTrailFade {
   0%   { opacity: 0;   transform: translate(-50%, -50%)   scale(0.95) rotate(-6deg); }
   25%  { opacity: .6;  transform: translate(-50%, -56%)   scale(1.05) rotate(0deg); }
@@ -233,25 +186,33 @@ img { max-width: 100%; }
 }
 
 /* ==============================
-   Global Dark Mode Overrides
+   Global Dark Mode + Force White
    ============================== */
-
-/* Use dark color scheme */
-:root { color-scheme: dark; }
-
-/* Base */
-body {
-  background: #0b0b0b;   /* near-black */
-  color: #f5f5f5;        /* soft white */
+:root {
+  color-scheme: dark;
+  --bs-body-color: #ffffff;
+  --bs-heading-color: #ffffff;
+  --bs-link-color: #ffffff;
+  --bs-link-hover-color: #e6e6e6;
 }
 
-/* Headings & text */
-h1, h2, h3, h4, h5, h6 { color: #ffffff; }
+html, body { background: #0b0b0b; color: #ffffff; }
+h1, h2, h3, h4, h5, h6 { color: #ffffff !important; }
 hr { border-top: 1px solid #222; }
 
-/* Links */
-a { color: #7dd3fc; }                 /* sky */
-a:hover, a:focus { color: #bae6fd; }  /* lighter sky */
+/* Make common text contexts white */
+p, li, dl, dt, dd, small, .small, .text-muted, .lead,
+figcaption, .figure-caption, .caption, blockquote,
+.quarto-title-meta, .table, .card, .callout, .callout p,
+.list-group-item, .breadcrumb, .breadcrumb a,
+.nav-footer, footer, .sidebar, .quarto-secondary-sidebar,
+.toc, .toc .nav-link, nav[role="doc-toc"] .nav-link {
+  color: #ffffff !important;
+}
+
+/* Links -> white */
+a { color: #ffffff !important; text-decoration-color: rgba(255,255,255,.6); }
+a:hover, a:focus { color: #e6e6e6 !important; }
 
 /* Navbar */
 .navbar {
@@ -259,35 +220,27 @@ a:hover, a:focus { color: #bae6fd; }  /* lighter sky */
   border-bottom: 1px solid #1e1e1e;
 }
 .navbar-brand { color: #fff !important; }
-.navbar .nav-link {
-  color: rgba(255,255,255,.85) !important;
-}
+.navbar .nav-link { color: rgba(255,255,255,.92) !important; }
 .navbar .nav-link:hover,
 .navbar .nav-link:focus,
-.navbar .nav-link.active {
-  color: #fff !important;
-}
+.navbar .nav-link.active { color: #fff !important; }
 
 /* Dropdowns (if any) */
-.dropdown-menu {
-  background: #111;
-  border-color: #2a2a2a;
-}
-.dropdown-item { color: #f1f1f1; }
+.dropdown-menu { background: #111; border-color: #2a2a2a; }
+.dropdown-item { color: #ffffff; }
 .dropdown-item:hover { background: #1a1a1a; color: #fff; }
 
-/* Cards / custom sections (your project cards, etc.) */
+/* Cards / sections */
 .card, .project-card {
   background: #121212 !important;
   border-color: #262626 !important;
   box-shadow: none;
 }
-.project-card p { color: #d1d5db; }
 
 /* Tables */
 .table {
   --bs-table-bg: transparent;
-  color: #eaeaea;
+  color: #ffffff;
 }
 .table th, .table td { border-color: #2a2a2a !important; }
 .table-striped > tbody > tr:nth-of-type(odd) {
@@ -295,35 +248,28 @@ a:hover, a:focus { color: #bae6fd; }  /* lighter sky */
 }
 
 /* Code blocks */
-pre, code, .code-with-copy pre {
+pre, code, .code-with-copy pre, .sourceCode {
   background: #121212 !important;
-  color: #e6e6e6 !important;
+  color: #ffffff !important;
   border: 1px solid #2a2a2a !important;
 }
 
 /* Forms (contact page) */
-.contact-form input,
-.contact-form textarea {
-  background: #111;
-  color: #f5f5f5;
-  border: 1px solid #333;
+.contact-form input, .contact-form textarea {
+  background: #111; color: #ffffff; border: 1px solid #333;
 }
-.contact-form input::placeholder,
-.contact-form textarea::placeholder {
-  color: #9ca3af;
-}
+.contact-form input::placeholder, .contact-form textarea::placeholder { color: #c7c7c7; }
 
 /* CV accents */
 .cv-section h2 { border-left-color: #f5f5f5; }
-.cv-contacts, .cv-role, .cv-sub, .cv-dates { color: #d1d5db; }
+.cv-contacts, .cv-role, .cv-sub, .cv-dates { color: #ffffff; }
 
-/* Kylo hero + grid look great as-is; keep shadows slightly stronger on dark */
+/* Kylo hero + grid stronger shadows on dark */
 .kylo-hero img { box-shadow: 0 12px 36px rgba(0,0,0,.4); }
 .kylo-grid img { box-shadow: 0 8px 22px rgba(0,0,0,.35); }
 
 /* =========================================
-   Keep Kylo’s Corner navbar tab rainbow
-   (re-assert after dark overrides)
+   Kylo’s Corner navbar tab — rainbow only
    ========================================= */
 .navbar-nav .nav-link[href$="kylo.html"],
 .navbar-nav .nav-link[href$="kylo.qmd"],
@@ -332,7 +278,7 @@ pre, code, .code-with-copy pre {
   font-weight: 700;
   letter-spacing: .4px;
   font-size: 1.05rem;
-  background: linear-gradient(90deg, 
+  background: linear-gradient(90deg,
     #ff0000, #ff7a00, #ffee00, #00ff85, #00bfff, #8a2be2, #ff00c8
   );
   -webkit-background-clip: text;
@@ -343,7 +289,7 @@ pre, code, .code-with-copy pre {
 .navbar-nav .nav-link.active[href*="kylo"],
 .navbar-nav .nav-link[href*="kylo"]:hover,
 .navbar-nav .nav-link[href*="kylo"]:focus {
-  background: linear-gradient(90deg, 
+  background: linear-gradient(90deg,
     #ff00c8, #8a2be2, #00bfff, #00ff85, #ffee00, #ff7a00, #ff0000
   );
   -webkit-background-clip: text;
