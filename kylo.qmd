@@ -6,7 +6,11 @@ format:
     toc-depth: 2
     theme: cosmo
     lightbox: true
+    include-in-header:
+      text: |
+        <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
 ---
+
 
 # Meet Kylo 🐾
 Welcome to Kylo’s Corner — starring **Kylo the Bichon Frise**, professional floof, snuggle specialist, and certified good boy.
