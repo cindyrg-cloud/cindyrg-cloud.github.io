@@ -4,12 +4,13 @@ project:
   # make sure pawtrail.js is copied into _site
   resources:
     - pawtrail.js
+    - kylo-lightbox.js
 
 website:
   title: "Cindy Guzman"
   navbar:
     left:
-      - text: About You
+      - text: About Me
         href: about.qmd
       - text: Projects
         href: projects.qmd
@@ -33,6 +34,7 @@ format:
     include-after-body:
       - text: |
           <script src="pawtrail.js"></script>
+          <script src="kylo-lightbox.js"></script>
 
 # Optional: nice URLs (no .html in links)
 metadata-files: []
