@@ -26,6 +26,8 @@ format:
     toc-depth: 2
     smooth-scroll: true
     css: styles.css
+    include-after-body: 
+      - pawtrail.js
 
 # Optional: nice URLs (no .html in links)
 metadata-files: []
