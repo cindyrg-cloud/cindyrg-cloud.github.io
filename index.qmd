@@ -5,13 +5,10 @@ page-layout: article
 
 # Hi, I’m **Cindy Guzman** 👋
 
-Senior Business Analyst @ Liberty Mutual • MS Applied Business Analytics (BU)
+Senior Business Analyst \@ Liberty Mutual • MS Applied Business Analytics (BU)
 
-I translate messy, real-world data into decisions. On this site you’ll find:
-- **Projects** showing modeling, visualization, and product thinking
-- A concise **CV** (downloadable PDF)
-- Ways to **contact** me
+I translate messy, real-world data into decisions. On this site you’ll find: - **Projects** showing modeling, visualization, and product thinking - A concise **CV** (downloadable PDF) - Ways to **contact** me
 
 > Currently exploring salary prediction with Lightcast job-posting data, model comparison (GLR, Linear, Polynomial, Random Forest), and clean MLOps habits on EC2.
 
----
+------------------------------------------------------------------------
