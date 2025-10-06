@@ -364,3 +364,37 @@ pre, code, .code-with-copy pre, .sourceCode {
   .kylo-lightbox__prev  { left: 8px; }
   .kylo-lightbox__next  { right: 8px; }
 }
+/* ===== Kylo Masonry Gallery (Pinterest-style) ===== */
+.kylo-masonry {
+  column-gap: 12px;
+  /* responsive column counts */
+  column-count: 1;
+}
+@media (min-width: 640px) {
+  .kylo-masonry { column-count: 2; }
+}
+@media (min-width: 980px) {
+  .kylo-masonry { column-count: 3; }
+}
+
+.kylo-masonry-item {
+  break-inside: avoid;
+  margin: 0 0 12px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 22px rgba(0,0,0,.35);
+  background: #0e0e0e; /* nice on dark theme during lazy load */
+}
+
+.kylo-masonry-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform .18s ease, filter .18s ease, box-shadow .18s ease;
+}
+
+.kylo-masonry-item:hover img {
+  transform: translateY(-2px) scale(1.015);
+  filter: brightness(1.05);
+  box-shadow: 0 12px 28px rgba(0,0,0,.45);
+}

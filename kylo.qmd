@@ -3,47 +3,50 @@ format:
   html:
     toc: true
     toc-depth: 2
-    theme: cosmo
+    theme: Lux
     lightbox: true
 ---
 
-
 # Meet Kylo 🐾
+
 Welcome to Kylo’s Corner — starring **Kylo the Bichon Frise**, professional floof, snuggle specialist, and certified good boy.
 
-::: {.kylo-hero}
+::: kylo-hero
 ![](assets/kylo/kylo-hero.jpg){alt="Kylo posing proudly after his groom"}
 :::
 
 ## Quick Stats
-- **Breed:** Bichon Frise  
-- **Nicknames:** Bear, Wolfie, Stinky  
-- **Favorite toy:** Kiwi Toss Ball  
-- **Walk rating:** 12/10 every time  
+
+-   **Breed:** Bichon Frise\
+-   **Nicknames:** Bear, Wolfie, Stinky\
+-   **Favorite toy:** Kiwi Toss Ball\
+-   **Walk rating:** 12/10 every time
 
 ## Grooming Routine
-- 🛁 **Bath:** weekly with whitening & tear-stain shampoo  
-- ✂️ **Full groom:** monthly trim (face, feet, and tail fluff)  
-- 👂 **Ears & eyes:** cleaned post-bath  
-- 💨 **Brushing:** 3–4×/week to keep his curls fluffy  
+
+-   🛁 **Bath:** weekly with whitening & tear-stain shampoo\
+-   ✂️ **Full groom:** monthly trim (face, feet, and tail fluff)\
+-   👂 **Ears & eyes:** cleaned post-bath\
+-   💨 **Brushing:** 3–4×/week to keep his curls fluffy
 
 ## Photo Gallery
 > Click any photo to view it full size 🐶
 
-::: {.kylo-grid data-gallery="kylo"}
-![](assets/kylo/kylo-1.jpg){alt="Kylo on his walk"}
-![](assets/kylo/kylo-2.jpg){alt="Kylo freshly groomed"}
-![](assets/kylo/kylo-3.jpg){alt="Kylo playing with his toy"}
-![](assets/kylo/kylo-4.jpg){alt="Kylo lounging at home"}
-![](assets/kylo/kylo-5.jpg){alt="Kylo exploring outside"}
-:::
+<div class="kylo-masonry" data-gallery="kylo">
+  <figure class="kylo-masonry-item"><img src="assets/kylo/kylo-1.jpg" alt="Kylo on his walk"></figure>
+  <figure class="kylo-masonry-item"><img src="assets/kylo/kylo-2.jpg" alt="Kylo freshly groomed"></figure>
+  <figure class="kylo-masonry-item"><img src="assets/kylo/kylo-3.jpg" alt="Kylo playing with his toy"></figure>
+  <figure class="kylo-masonry-item"><img src="assets/kylo/kylo-4.jpg" alt="Kylo lounging at home"></figure>
+  <figure class="kylo-masonry-item"><img src="assets/kylo/kylo-5.jpg" alt="Kylo exploring outside"></figure>
+</div>
 
 
 ## Favorite Parks & Adventures
-- 🌳 **Webb Memorial Park** — breezy sniffs and squirrel patrol  
-- 🚗 **Car rides with the windows down** — ears flapping, pure joy, ultimate freedom
-- 🐾 **Neighborhood strolls** — mayoral greetings every time  
 
----
+-   🌳 **Webb Memorial Park** — breezy sniffs and squirrel patrol\
+-   🚗 **Car rides with the windows down** — ears flapping, pure joy, ultimate freedom
+-   🐾 **Neighborhood strolls** — mayoral greetings every time
+
+------------------------------------------------------------------------
 
 > “Hydrate, stretch, and always accept treats.” — *Kylo*
