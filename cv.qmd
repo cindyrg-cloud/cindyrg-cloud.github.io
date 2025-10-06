@@ -6,98 +6,173 @@ format:
     toc: false
 ---
 
-
-
-::: {.cv}
-
-::: {.cv-header}
-::: {.cv-name}
+::::::::::::::::::::::::::::: cv
+:::::: cv-header
+:::: cv-name
 # Cindy Guzman
-<div class="cv-role">Senior Business Analyst · Liberty Mutual</div>
-:::
 
-::: {.cv-contacts}
-Boston, MA  
-[Cindy.RG.7@gmail.com](mailto:Cindy.RG.7@gmail.com)  
-[617-639-6086](tel:+16176396086)  
-[github.com/your-handle](https://github.com/your-handle)  
-[linkedin.com/in/your-handle](https://linkedin.com/in/your-handle)
+::: cv-role
+Senior Business Analyst · Liberty Mutual
 :::
-:::
+::::
 
-::: {.cv-downloads}
-[Download PDF](assets/Cindy_Guzman_CV.pdf){.cv-btn}  
+::: cv-contacts
+Boston, MA\
+[Cindy.RG.7\@gmail.com](mailto:Cindy.RG.7@gmail.com)\
+[617-639-6086](tel:+16176396086)\
+[github.com/your-handle](https://github.com/cindyrg-cloud)\
+[linkedin.com/in/your-handle](https://www.linkedin.com/in/cindy-guzman-9299ab1b1)
+:::
+::::::
+
+::: cv-downloads
+[Download PDF](assets/Cindy_Guzman_CV.pdf){.cv-btn}\
 [Download Word](assets/Cindy_Guzman_CV.docx){.cv-btn .ghost}
 :::
 
 ## Summary
+
 Senior Business Analyst who thrives at the intersection of business strategy and data pipelines. Experienced translating messy data into decisions—building predictive models, automating reporting, and presenting insights to stakeholders.
 
 ## Experience
 
-::: {.cv-item}
-::: {.cv-item-head}
-**Liberty Mutual Insurance**  
-<div class="cv-sub">Senior Business Analyst · Boston, MA</div>
-<div class="cv-dates">Dec 2024 – Present</div>
-:::
-- Lead cross-functional analytics projects translating data into actionable business insights.
-- Develop predictive models and dashboards using Python, SQL, PySpark, and Power BI.
-- Partner with IT, Finance, and Product to design reporting solutions and present to senior leadership.
-- Mentor junior analysts on analysis best practices and business communication.
+:::::: cv-item
+::::: cv-item-head
+**Liberty Mutual Insurance**\
+
+::: cv-sub
+Senior Business Analyst · Boston, MA
 :::
 
-::: {.cv-item}
-::: {.cv-item-head}
-**Liberty Mutual Insurance**  
-<div class="cv-sub">Accountant · Boston, MA</div>
-<div class="cv-dates">Aug 2022 – Dec 2024</div>
+::: cv-dates
+Dec 2024 – Present
 :::
-- Managed accounts payable totaling **$50M**; ensured GAAP compliance and accurate reconciliation.
-- Prepared weekly financial statements for **$1–$3M** payments and analyzed transactions.
-- Performed reserve postings and asset-coverage ratio analysis to inform financial performance.
-- Led client meetings; supported audits and system-integration projects to drive efficiency.
+:::::
+
+-   Lead cross-functional analytics projects translating data into actionable business insights.
+-   Develop predictive models and dashboards using Python, SQL, PySpark, and Power BI.
+-   Partner with IT, Finance, and Product to design reporting solutions and present to senior leadership.
+-   Mentor junior analysts on analysis best practices and business communication.
+::::::
+
+:::::: cv-item
+::::: cv-item-head
+**Liberty Mutual Insurance**\
+
+::: cv-sub
+Accountant · Boston, MA
 :::
 
-::: {.cv-item}
-::: {.cv-item-head}
-**Quanterix**  
-<div class="cv-sub">Technical Support Coordinator · Billerica, MA</div>
-<div class="cv-dates">Dec 2018 – Feb 2021</div>
+::: cv-dates
+Aug 2022 – Dec 2024
 :::
-- Directed global service requests via Salesforce; triaged JIRA tickets by urgency and category.
-- Created a training program (docs + how-to videos) to onboard coordinators.
-- Managed instrument inventory and maintenance; audited closed cases for process compliance.
+:::::
+
+-   Managed accounts payable totaling **\$50M**; ensured GAAP compliance and accurate reconciliation.
+-   Prepared weekly financial statements for **\$1–\$3M** payments and analyzed transactions.
+-   Performed reserve postings and asset-coverage ratio analysis to inform financial performance.
+-   Led client meetings; supported audits and system-integration projects to drive efficiency.
+::::::
+
+:::::: cv-item
+::::: cv-item-head
+**Quanterix**\
+
+::: cv-sub
+Technical Support Coordinator · Billerica, MA
 :::
 
-::: {.cv-item}
-::: {.cv-item-head}
-**Liberty Mutual Insurance**  
-<div class="cv-sub">Recovery Technician I · Weston, MA</div>
-<div class="cv-dates">Jun 2018 – Dec 2018</div>
+::: cv-dates
+Dec 2018 – Feb 2021
 :::
-- Processed workers’ compensation recovery claims; investigated third-party liabilities and negotiated settlements.
+:::::
+
+-   Directed global service requests via Salesforce; triaged JIRA tickets by urgency and category.
+-   Created a training program (docs + how-to videos) to onboard coordinators.
+-   Managed instrument inventory and maintenance; audited closed cases for process compliance.
+::::::
+
+:::::: cv-item
+::::: cv-item-head
+**Liberty Mutual Insurance**\
+
+::: cv-sub
+Recovery Technician I · Weston, MA
 :::
+
+::: cv-dates
+Jun 2018 – Dec 2018
+:::
+:::::
+
+-   Processed workers’ compensation recovery claims; investigated third-party liabilities and negotiated settlements.
+::::::
 
 ## Education
-::: {.cv-item}
-::: {.cv-item-head}
-**Bridgewater State University**  
-<div class="cv-sub">B.S. in Biochemistry · Bridgewater, MA</div>
-<div class="cv-dates">May 2018</div>
+
+:::::: cv-item
+::::: cv-item-head
+**Bridgewater State University**\
+
+::: cv-sub
+B.S. in Biochemistry · Bridgewater, MA
 :::
+
+::: cv-dates
+May 2018
 :::
+:::::
+::::::
 
 ## Skills
-::: {.cv-grid}
-**Technical**  
-<ul class="cv-tags"><li>Python</li><li>PySpark</li><li>SQL</li><li>Power BI</li><li>Salesforce</li><li>JIRA</li><li>SAP</li><li>Microsoft Office</li></ul>
 
-**Core**  
-<ul class="cv-tags"><li>Data Analysis</li><li>Financial Reporting</li><li>Time Management</li><li>Communication</li><li>Stakeholder Management</li></ul>
+::: cv-grid
+**Technical**\
 
-**Languages**  
-<ul class="cv-tags"><li>English</li><li>Spanish</li></ul>
+<ul class="cv-tags">
+
+<li>Python</li>
+
+<li>PySpark</li>
+
+<li>SQL</li>
+
+<li>Power BI</li>
+
+<li>Salesforce</li>
+
+<li>JIRA</li>
+
+<li>SAP</li>
+
+<li>Microsoft Office</li>
+
+</ul>
+
+**Core**\
+
+<ul class="cv-tags">
+
+<li>Data Analysis</li>
+
+<li>Financial Reporting</li>
+
+<li>Time Management</li>
+
+<li>Communication</li>
+
+<li>Stakeholder Management</li>
+
+</ul>
+
+**Languages**\
+
+<ul class="cv-tags">
+
+<li>English</li>
+
+<li>Spanish</li>
+
+</ul>
 :::
-
-:::
+:::::::::::::::::::::::::::::

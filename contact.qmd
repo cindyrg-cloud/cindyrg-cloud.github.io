@@ -5,11 +5,14 @@ format:
     sanitize: false
 ---
 
-::: {.contact-card}
+:::: contact-card
 ## Send me a message
 
 <!-- ===== OPTION A: REDIRECT TO THANK-YOU PAGE ===== -->
+
 <!-- Uncomment this section if you prefer redirect behavior -->
+
+```{=html}
 <!--
 <div class="contact-form">
   <form method="POST" action="https://formspree.io/f/myznpnpv" accept-charset="UTF-8">
@@ -36,40 +39,49 @@ format:
   </form>
 </div>
 -->
+```
 
 <!-- ===== OPTION B: INLINE SUCCESS MESSAGE ===== -->
-<div class="contact-form">
-  <form id="contactForm" method="POST" action="https://formspree.io/f/myznpnpv" accept-charset="UTF-8">
-    <label>
-      Name
-      <input type="text" name="name" required autocomplete="name" />
-    </label>
 
-    <label>
-      Email
-      <input type="email" name="_replyto" required autocomplete="email" />
-    </label>
+::: contact-form
+<form id="contactForm" method="POST" action="https://formspree.io/f/myznpnpv" accept-charset="UTF-8">
 
-    <label>
-      Message
-      <textarea name="message" rows="6" required></textarea>
-    </label>
+<label> Name <input type="text" name="name" required autocomplete="name" /> </label>
 
-    <input type="hidden" name="_subject" value="New message from cindyrg site" />
-    <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+<label> Email <input type="email" name="_replyto" required autocomplete="email" /> </label>
 
-    <button type="submit">Send</button>
-    <p id="formStatus" aria-live="polite" style="margin:0.5rem 0 0;"></p>
-  </form>
-</div>
+<label> Message
+
+```{=html}
+<textarea name="message" rows="6" required></textarea>
+```
+
+</label>
+
+<input type="hidden" name="_subject" value="New message from cindyrg site" /> <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+
+<button type="submit">
+
+Send
+
+</button>
+
+<p id="formStatus" aria-live="polite" style="margin:0.5rem 0 0;">
+
+</p>
+
+</form>
 :::
+::::
 
----
+------------------------------------------------------------------------
 
 ### Or reach me here:
-- 💼 LinkedIn: [www.linkedin.com/in/cindy-guzman-9299ab1b1](https://www.linkedin.com/in/cindy-guzman-9299ab1b1)  
-- 🐙 GitHub: [github.com/cindyrg-cloud](https://github.com/cindyrg-cloud)  
 
+-   💼 LinkedIn: [www.linkedin.com/in/cindy-guzman-9299ab1b1](https://www.linkedin.com/in/cindy-guzman-9299ab1b1)\
+-   🐙 GitHub: [github.com/cindyrg-cloud](https://github.com/cindyrg-cloud)
+
+```{=html}
 <script>
 const form = document.getElementById('contactForm');
 const statusEl = document.getElementById('formStatus');
@@ -99,7 +111,9 @@ if (form) {
   });
 }
 </script>
+```
 
+```{=html}
 <style>
 .contact-card { 
   max-width: 720px; 
@@ -120,4 +134,4 @@ button { border: 0; cursor: pointer; font-weight: 700; }
 button:hover { filter: brightness(0.98); }
 #formStatus { font-weight: 600; color: #187145; }
 </style>
-
+```

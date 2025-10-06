@@ -1,5 +1,4 @@
 ---
-title: "Kylo’s Corner"
 format:
   html:
     toc: true
