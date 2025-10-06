@@ -1,2 +1,14 @@
-/.quarto/
-**/*.quarto_ipynb
+# Virtual env
+.venv/
+
+# Quarto build output & cache
+_site/
+.quarto/
+
+# Python cache / notebooks
+__pycache__/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
