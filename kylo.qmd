@@ -6,9 +6,6 @@ format:
     toc-depth: 2
     theme: cosmo
     lightbox: true
-    include-in-header:
-      text: |
-        <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
 ---
 
 
@@ -34,13 +31,14 @@ Welcome to Kylo’s Corner — starring **Kylo the Bichon Frise**, professional 
 ## Photo Gallery
 > Click any photo to view it full size 🐶
 
-::: {.kylo-grid}
+::: {.kylo-grid data-gallery="kylo"}
 ![](assets/kylo/kylo-1.jpg){alt="Kylo on his walk"}
 ![](assets/kylo/kylo-2.jpg){alt="Kylo freshly groomed"}
 ![](assets/kylo/kylo-3.jpg){alt="Kylo playing with his toy"}
 ![](assets/kylo/kylo-4.jpg){alt="Kylo lounging at home"}
 ![](assets/kylo/kylo-5.jpg){alt="Kylo exploring outside"}
 :::
+
 
 ## Favorite Parks & Adventures
 - 🌳 **Webb Memorial Park** — breezy sniffs and squirrel patrol  
