@@ -18,8 +18,6 @@ Senior Business Analyst · Liberty Mutual
 
 ::: cv-contacts
 Boston, MA\
-[Cindy.RG.7\@gmail.com](mailto:Cindy.RG.7@gmail.com)\
-[617-639-6086](tel:+16176396086)\
 [github.com/your-handle](https://github.com/cindyrg-cloud)\
 [linkedin.com/in/your-handle](https://www.linkedin.com/in/cindy-guzman-9299ab1b1)
 :::
