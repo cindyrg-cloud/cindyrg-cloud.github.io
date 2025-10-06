@@ -2,21 +2,19 @@
 title: "About Me"
 ---
 
-<img src="assets/headshot.jpg" alt="Headshot of Cindy Guzman" class="profile-pic" width="200" />
+<img src="assets/headshot.jpg" alt="Headshot of Cindy Guzman" class="profile-pic" width="200"/>
 
+I’m a **Senior Business Analyst at Liberty Mutual Insurance** who thrives at the intersection of business strategy and data pipelines.
 
-
-I’m a **Senior Business Analyst at Liberty Mutual Insurance** who thrives at the intersection of business strategy and data pipelines.  
-
-- 🎓 Background: B.S. Biochemistry • First-generation professional  
-- 🛠 Toolbelt: Python, PySpark, SQL, Quarto, Git/GitHub, AWS EC2  
-- 💡 Interests: analytics for hiring, forecasting, and customer experience  
+-   🎓 Background: B.S. Biochemistry • First-generation professional\
+-   🛠 Toolbelt: Python, PySpark, SQL, Quarto, Git/GitHub, AWS EC2\
+-   💡 Interests: analytics for hiring, forecasting, and customer experience
 
 I bring a unique mix of technical expertise and business acumen to every project — whether it’s building predictive models, automating reporting, or presenting insights to stakeholders.
 
----
+------------------------------------------------------------------------
 
 ## Career Goals
 
-- 🚀 Ship insight-driven analytics that move metrics  
-- 📊 Grow into Analytics/ML Product roles with end-to-end ownership  
+-   🚀 Ship insight-driven analytics that move metrics\
+-   📊 Grow into Analytics/ML Product roles with end-to-end ownership

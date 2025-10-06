@@ -18,8 +18,8 @@ Senior Business Analyst · Liberty Mutual
 
 ::: cv-contacts
 Boston, MA\
-[github.com/your-handle](https://github.com/cindyrg-cloud)\
-[linkedin.com/in/your-handle](https://www.linkedin.com/in/cindy-guzman-9299ab1b1)
+[Cindy's GitHub](https://github.com/cindyrg-cloud)\
+[Cindy's LinkedIn](https://www.linkedin.com/in/cindy-guzman-9299ab1b1)
 :::
 ::::::
 
