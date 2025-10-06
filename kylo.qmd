@@ -30,45 +30,17 @@ Welcome to Kylo’s Corner — starring **Kylo the Bichon Frise**, professional 
 -   💨 **Brushing:** 3–4×/week to keep his curls fluffy
 
 ## Photo Gallery
-
 > Click any photo to view it full size 🐶
 
-::: {.kylo-masonry data-gallery="kylo"}
-<figure class="kylo-masonry-item">
+<div class="kylo-uniform" data-gallery="kylo">
+  <figure><img src="assets/kylo/kylo-1.jpg" alt="Kylo on his walk" loading="lazy"></figure>
+  <figure><img src="assets/kylo/kylo-2.jpg" alt="Kylo freshly groomed" loading="lazy"></figure>
+  <figure><img src="assets/kylo/kylo-3.jpg" alt="Kylo playing with his toy" loading="lazy"></figure>
+  <figure><img src="assets/kylo/kylo-4.jpg" alt="Kylo lounging at home" loading="lazy"></figure>
+  <figure><img src="assets/kylo/kylo-5.jpg" alt="Kylo exploring outside" loading="lazy"></figure>
+  <figure><img src="assets/kylo/kylo-6.jpg" alt="Kylo being extra cute" loading="lazy"></figure>
+</div>
 
-<img src="assets/kylo/kylo-1.jpg" alt="Kylo on his walk"/>
-
-</figure>
-
-<figure class="kylo-masonry-item">
-
-<img src="assets/kylo/kylo-2.jpg" alt="Kylo freshly groomed"/>
-
-</figure>
-
-<figure class="kylo-masonry-item">
-
-<img src="assets/kylo/kylo-3.jpg" alt="Kylo playing with his toy"/>
-
-</figure>
-
-<figure class="kylo-masonry-item">
-
-<img src="assets/kylo/kylo-4.jpg" alt="Kylo lounging at home"/>
-
-</figure>
-
-<figure class="kylo-masonry-item">
-
-<img src="assets/kylo/kylo-5.jpg" alt="Kylo exploring outside"/>
-
-</figure>
-
-<figure class="kylo-masonry-item">
-
-<img src="assets/kylo/kylo-6.jpg" alt="Kylo being extra cute" loading="lazy">
-
-</figure>
 :::
 
 ## Favorite Parks & Adventures
