@@ -130,11 +130,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul class="collapse">
-  <li><a href="#salary-prediction-on-lightcast-job-postings" id="toc-salary-prediction-on-lightcast-job-postings" class="nav-link active" data-scroll-target="#salary-prediction-on-lightcast-job-postings">Salary Prediction on Lightcast Job Postings</a></li>
+  <li><a href="#projects" id="toc-projects" class="nav-link active" data-scroll-target="#projects">💼 Projects</a>
+  <ul class="collapse">
+  <li><a href="#salary-prediction-on-lightcast-job-postings" id="toc-salary-prediction-on-lightcast-job-postings" class="nav-link" data-scroll-target="#salary-prediction-on-lightcast-job-postings">Salary Prediction on Lightcast Job Postings</a></li>
   <li><a href="#financial-reporting-automation-liberty-mutual" id="toc-financial-reporting-automation-liberty-mutual" class="nav-link" data-scroll-target="#financial-reporting-automation-liberty-mutual">Financial Reporting Automation (Liberty Mutual)</a></li>
-  <li><a href="#technical-support-ops-optimization-quanterix" id="toc-technical-support-ops-optimization-quanterix" class="nav-link" data-scroll-target="#technical-support-ops-optimization-quanterix">Technical Support Ops Optimization (Quanterix)</a></li>
-  <li><a href="#this-website-quarto-github-pages" id="toc-this-website-quarto-github-pages" class="nav-link" data-scroll-target="#this-website-quarto-github-pages">This Website (Quarto + GitHub Pages)</a></li>
-  <li><a href="#what-im-exploring-next" id="toc-what-im-exploring-next" class="nav-link" data-scroll-target="#what-im-exploring-next">What I’m Exploring Next</a></li>
+  <li><a href="#technical-support-operations-optimization-quanterix" id="toc-technical-support-operations-optimization-quanterix" class="nav-link" data-scroll-target="#technical-support-operations-optimization-quanterix">Technical Support Operations Optimization (Quanterix)</a></li>
+  <li><a href="#personal-analytics-portfolio-quarto-github-pages" id="toc-personal-analytics-portfolio-quarto-github-pages" class="nav-link" data-scroll-target="#personal-analytics-portfolio-quarto-github-pages">Personal Analytics Portfolio (Quarto + GitHub Pages)</a></li>
+  <li><a href="#whats-next" id="toc-whats-next" class="nav-link" data-scroll-target="#whats-next">🚀 What’s Next</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -160,68 +163,89 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Below are a few highlights that show how I approach real problems end-to-end: clarify the question, build reliable data/ML pipelines, and communicate results to decision-makers.</p>
+<section id="projects" class="level1">
+<h1>💼 Projects</h1>
+<p>Below are select highlights that showcase how I approach analytics <strong>end-to-end</strong> — from defining the question, building reliable data pipelines, and experimenting with machine learning models, to communicating results clearly for business decision-makers.</p>
 <hr>
 <section id="salary-prediction-on-lightcast-job-postings" class="level2 project-card">
 <h2 class="anchored" data-anchor-id="salary-prediction-on-lightcast-job-postings">Salary Prediction on Lightcast Job Postings</h2>
-<p><strong>Role:</strong> Modeler &amp; Analyst • <strong>Stack:</strong> PySpark, Python, Quarto • <strong>Topics:</strong> feature engineering, regression, evaluation</p>
+<p><strong>Role:</strong> Data Modeler &amp; Analyst<br>
+<strong>Stack:</strong> PySpark • Python • Quarto<br>
+<strong>Topics:</strong> Feature Engineering • Regression Modeling • Evaluation</p>
 <ul>
-<li>Built and compared <strong>GLR</strong>, <strong>Linear</strong>, <strong>Polynomial (quadratic in <code>MIN_YEARS_EXPERIENCE</code>)</strong>, and <strong>Random Forest</strong> regressors.</li>
-<li>Encoded categorical fields (freq-ordered + one-hot), enforced sanity filters, and assembled numeric features.</li>
-<li>Assessed on <strong>RMSE, MAE, R²</strong> with a clean 80/20 train–test split; produced <strong>actual-vs-pred</strong> visuals and <strong>feature importance</strong>.</li>
-<li>Delivered a Quarto report with reproducible code and figures.</li>
+<li>Developed and compared <strong>Generalized Linear Regression (GLR)</strong>, <strong>Linear</strong>, <strong>Polynomial (quadratic)</strong>, and <strong>Random Forest</strong> regressors on Lightcast job-posting data.<br>
+</li>
+<li>Engineered categorical features with <strong>frequency encoding</strong> and <strong>one-hot encoding</strong>, enforced sanity filters (salary, experience), and assembled numerical predictors for modeling.<br>
+</li>
+<li>Evaluated models using <strong>RMSE, MAE, and R²</strong>, applying an 80/20 train–test split with controlled randomness for reproducibility.<br>
+</li>
+<li>Produced <strong>actual-vs-predicted plots</strong>, <strong>feature-importance visualizations</strong>, and a unified metrics dashboard inside a Quarto report.</li>
 </ul>
-<p><strong>Highlights</strong> - Fast, inspectable pipeline with consistent splits and metric tables. - Clear visuals for stakeholder readouts (test set focus, no leakage).</p>
-<p><strong>Links</strong> - <em>Add when ready:</em> <a href="#">Repository</a> • <a href="#">Report</a></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="assets/salary-plot.png" class="project-image img-fluid figure-img" width="720"></p>
-<figcaption>Plot placeholder</figcaption>
-</figure>
-</div>
+<p><strong>Highlights:</strong><br>
+- Robust, inspectable pipeline with reproducible outputs.<br>
+- Clean, modular code organized for future <strong>parameterized re-runs</strong> and <strong>MLOps integration</strong>.</p>
 </section>
 <hr>
 <section id="financial-reporting-automation-liberty-mutual" class="level2 project-card">
 <h2 class="anchored" data-anchor-id="financial-reporting-automation-liberty-mutual">Financial Reporting Automation (Liberty Mutual)</h2>
-<p><strong>Role:</strong> Analyst (Accounting → Analytics) • <strong>Stack:</strong> SQL, Python, Power BI</p>
+<p><strong>Role:</strong> Business Analyst (Accounting → Analytics Transition)<br>
+<strong>Stack:</strong> SQL • Python • Power BI</p>
 <ul>
-<li>Streamlined AP/close workflows supporting <strong>$50M</strong> in transactions and <strong>$1–3M</strong> weekly payments.</li>
-<li>Automated reconciliation checks and <strong>reserve/asset-coverage</strong> calculations to reduce manual effort.</li>
-<li>Partnered with finance leadership to align metrics and definitions; published refreshed dashboards.</li>
+<li>Automated financial reporting and reconciliation workflows supporting <strong>$50M+</strong> in transactions and <strong>$1–3M</strong> in weekly payments.<br>
+</li>
+<li>Designed Python scripts for <strong>data validation, reserve calculations</strong>, and <strong>asset coverage checks</strong>, reducing manual review cycles.<br>
+</li>
+<li>Partnered with finance leadership to align KPIs, refresh dashboards, and ensure consistency across systems.</li>
 </ul>
-<p><strong>Impact</strong> - Fewer reconciliation defects and faster time-to-close.</p>
+<p><strong>Impact:</strong><br>
+- Cut reconciliation defects by double digits and reduced the monthly <strong>time-to-close</strong> window.<br>
+- Strengthened data quality, transparency, and trust in reporting.</p>
 </section>
 <hr>
-<section id="technical-support-ops-optimization-quanterix" class="level2 project-card">
-<h2 class="anchored" data-anchor-id="technical-support-ops-optimization-quanterix">Technical Support Ops Optimization (Quanterix)</h2>
-<p><strong>Role:</strong> Ops &amp; Analytics • <strong>Stack:</strong> Salesforce, JIRA, Excel/Power BI</p>
+<section id="technical-support-operations-optimization-quanterix" class="level2 project-card">
+<h2 class="anchored" data-anchor-id="technical-support-operations-optimization-quanterix">Technical Support Operations Optimization (Quanterix)</h2>
+<p><strong>Role:</strong> Ops Analyst &amp; Process Designer<br>
+<strong>Stack:</strong> Salesforce • JIRA • Excel • Power BI</p>
 <ul>
-<li>Triaged global service requests, standardized categories/SLAs, and audited closed cases monthly.</li>
-<li>Designed a <strong>training program</strong> (docs + how-to videos) for new coordinators.</li>
-<li>Improved throughput and documentation quality across the service desk.</li>
+<li>Audited global service desk requests and implemented standardized <strong>categories, SLAs, and reporting workflows</strong>.<br>
+</li>
+<li>Built monthly dashboards for leadership visibility and root-cause tracking.<br>
+</li>
+<li>Created onboarding materials and a <strong>training library</strong> (videos, step-by-step guides) for new team members.</li>
 </ul>
-<p><strong>Impact</strong> - Clear ownership, faster routing, and more reliable reporting.</p>
+<p><strong>Impact:</strong><br>
+- Increased request throughput, reduced resolution time, and improved documentation consistency.<br>
+- Transitioned team from reactive ticket management to proactive data-driven insights.</p>
 </section>
 <hr>
-<section id="this-website-quarto-github-pages" class="level2 project-card">
-<h2 class="anchored" data-anchor-id="this-website-quarto-github-pages">This Website (Quarto + GitHub Pages)</h2>
-<p><strong>Role:</strong> Designer/Implementer • <strong>Stack:</strong> Quarto, GitHub Actions/Pages</p>
+<section id="personal-analytics-portfolio-quarto-github-pages" class="level2 project-card">
+<h2 class="anchored" data-anchor-id="personal-analytics-portfolio-quarto-github-pages">Personal Analytics Portfolio (Quarto + GitHub Pages)</h2>
+<p><strong>Role:</strong> Designer &amp; Developer<br>
+<strong>Stack:</strong> Quarto • GitHub Actions • HTML/CSS • JavaScript</p>
 <ul>
-<li>Built an accessible, fast personal site with a minimal brand.</li>
-<li>Organized for employers: <strong>About</strong>, <strong>Projects</strong>, <strong>CV</strong>, <strong>Contact</strong> (no “data cleaning/exploration” tabs).</li>
-<li>Image optimization and consistent typography for a professional look.</li>
+<li>Designed and deployed this <strong>personal analytics website</strong> to host projects, CV, and interactive dashboards.<br>
+</li>
+<li>Implemented a custom <strong>dark theme</strong> with consistent typography, accessibility compliance, and optimized images for performance.<br>
+</li>
+<li>Automated builds with <strong>GitHub Actions</strong>, ensuring clean, version-controlled deployments.</li>
 </ul>
-<p><strong>Links</strong> - <em>Add when live:</em> <a href="#">Site URL</a> • <a href="#">Source Repo</a></p>
+<p><strong>Highlights:</strong><br>
+- Fully reproducible and open-source portfolio showcasing end-to-end technical and design skills.</p>
 </section>
 <hr>
-<section id="what-im-exploring-next" class="level2">
-<h2 class="anchored" data-anchor-id="what-im-exploring-next">What I’m Exploring Next</h2>
+<section id="whats-next" class="level2">
+<h2 class="anchored" data-anchor-id="whats-next">🚀 What’s Next</h2>
 <ul>
-<li>Packaging the Lightcast pipeline for parameterized re-runs and CI checks.</li>
-<li>Adding lightweight experiment tracking and a model comparison dashboard.</li>
+<li>Packaging the Lightcast modeling pipeline for <strong>parameterized execution</strong> and <strong>CI/CD integration</strong>.<br>
+</li>
+<li>Adding lightweight <strong>experiment tracking</strong> and a <strong>model-comparison dashboard</strong> to visualize model evolution.<br>
+</li>
+<li>Exploring cloud orchestration with <strong>AWS Lambda</strong> and <strong>S3-backed data refresh workflows</strong>.</li>
 </ul>
+<hr>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

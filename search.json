@@ -4,49 +4,49 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Below are a few highlights that show how I approach real problems end-to-end: clarify the question, build reliable data/ML pipelines, and communicate results to decision-makers."
+    "text": "Below are select highlights that showcase how I approach analytics end-to-end — from defining the question, building reliable data pipelines, and experimenting with machine learning models, to communicating results clearly for business decision-makers.\n\n\n\nRole: Data Modeler & Analyst\nStack: PySpark • Python • Quarto\nTopics: Feature Engineering • Regression Modeling • Evaluation\n\nDeveloped and compared Generalized Linear Regression (GLR), Linear, Polynomial (quadratic), and Random Forest regressors on Lightcast job-posting data.\n\nEngineered categorical features with frequency encoding and one-hot encoding, enforced sanity filters (salary, experience), and assembled numerical predictors for modeling.\n\nEvaluated models using RMSE, MAE, and R², applying an 80/20 train–test split with controlled randomness for reproducibility.\n\nProduced actual-vs-predicted plots, feature-importance visualizations, and a unified metrics dashboard inside a Quarto report.\n\nHighlights:\n- Robust, inspectable pipeline with reproducible outputs.\n- Clean, modular code organized for future parameterized re-runs and MLOps integration.\n\n\n\n\nRole: Business Analyst (Accounting → Analytics Transition)\nStack: SQL • Python • Power BI\n\nAutomated financial reporting and reconciliation workflows supporting $50M+ in transactions and $1–3M in weekly payments.\n\nDesigned Python scripts for data validation, reserve calculations, and asset coverage checks, reducing manual review cycles.\n\nPartnered with finance leadership to align KPIs, refresh dashboards, and ensure consistency across systems.\n\nImpact:\n- Cut reconciliation defects by double digits and reduced the monthly time-to-close window.\n- Strengthened data quality, transparency, and trust in reporting.\n\n\n\n\nRole: Ops Analyst & Process Designer\nStack: Salesforce • JIRA • Excel • Power BI\n\nAudited global service desk requests and implemented standardized categories, SLAs, and reporting workflows.\n\nBuilt monthly dashboards for leadership visibility and root-cause tracking.\n\nCreated onboarding materials and a training library (videos, step-by-step guides) for new team members.\n\nImpact:\n- Increased request throughput, reduced resolution time, and improved documentation consistency.\n- Transitioned team from reactive ticket management to proactive data-driven insights.\n\n\n\n\nRole: Designer & Developer\nStack: Quarto • GitHub Actions • HTML/CSS • JavaScript\n\nDesigned and deployed this personal analytics website to host projects, CV, and interactive dashboards.\n\nImplemented a custom dark theme with consistent typography, accessibility compliance, and optimized images for performance.\n\nAutomated builds with GitHub Actions, ensuring clean, version-controlled deployments.\n\nHighlights:\n- Fully reproducible and open-source portfolio showcasing end-to-end technical and design skills.\n\n\n\n\n\nPackaging the Lightcast modeling pipeline for parameterized execution and CI/CD integration.\n\nAdding lightweight experiment tracking and a model-comparison dashboard to visualize model evolution.\n\nExploring cloud orchestration with AWS Lambda and S3-backed data refresh workflows."
   },
   {
     "objectID": "projects.html#salary-prediction-on-lightcast-job-postings",
     "href": "projects.html#salary-prediction-on-lightcast-job-postings",
     "title": "Projects",
-    "section": "Salary Prediction on Lightcast Job Postings",
-    "text": "Salary Prediction on Lightcast Job Postings\nRole: Modeler & Analyst • Stack: PySpark, Python, Quarto • Topics: feature engineering, regression, evaluation\n\nBuilt and compared GLR, Linear, Polynomial (quadratic in MIN_YEARS_EXPERIENCE), and Random Forest regressors.\nEncoded categorical fields (freq-ordered + one-hot), enforced sanity filters, and assembled numeric features.\nAssessed on RMSE, MAE, R² with a clean 80/20 train–test split; produced actual-vs-pred visuals and feature importance.\nDelivered a Quarto report with reproducible code and figures.\n\nHighlights - Fast, inspectable pipeline with consistent splits and metric tables. - Clear visuals for stakeholder readouts (test set focus, no leakage).\nLinks - Add when ready: Repository • Report\n\n\n\nPlot placeholder"
+    "section": "",
+    "text": "Role: Data Modeler & Analyst\nStack: PySpark • Python • Quarto\nTopics: Feature Engineering • Regression Modeling • Evaluation\n\nDeveloped and compared Generalized Linear Regression (GLR), Linear, Polynomial (quadratic), and Random Forest regressors on Lightcast job-posting data.\n\nEngineered categorical features with frequency encoding and one-hot encoding, enforced sanity filters (salary, experience), and assembled numerical predictors for modeling.\n\nEvaluated models using RMSE, MAE, and R², applying an 80/20 train–test split with controlled randomness for reproducibility.\n\nProduced actual-vs-predicted plots, feature-importance visualizations, and a unified metrics dashboard inside a Quarto report.\n\nHighlights:\n- Robust, inspectable pipeline with reproducible outputs.\n- Clean, modular code organized for future parameterized re-runs and MLOps integration."
   },
   {
     "objectID": "projects.html#financial-reporting-automation-liberty-mutual",
     "href": "projects.html#financial-reporting-automation-liberty-mutual",
     "title": "Projects",
-    "section": "Financial Reporting Automation (Liberty Mutual)",
-    "text": "Financial Reporting Automation (Liberty Mutual)\nRole: Analyst (Accounting → Analytics) • Stack: SQL, Python, Power BI\n\nStreamlined AP/close workflows supporting $50M in transactions and $1–3M weekly payments.\nAutomated reconciliation checks and reserve/asset-coverage calculations to reduce manual effort.\nPartnered with finance leadership to align metrics and definitions; published refreshed dashboards.\n\nImpact - Fewer reconciliation defects and faster time-to-close."
+    "section": "",
+    "text": "Role: Business Analyst (Accounting → Analytics Transition)\nStack: SQL • Python • Power BI\n\nAutomated financial reporting and reconciliation workflows supporting $50M+ in transactions and $1–3M in weekly payments.\n\nDesigned Python scripts for data validation, reserve calculations, and asset coverage checks, reducing manual review cycles.\n\nPartnered with finance leadership to align KPIs, refresh dashboards, and ensure consistency across systems.\n\nImpact:\n- Cut reconciliation defects by double digits and reduced the monthly time-to-close window.\n- Strengthened data quality, transparency, and trust in reporting."
   },
   {
-    "objectID": "projects.html#technical-support-ops-optimization-quanterix",
-    "href": "projects.html#technical-support-ops-optimization-quanterix",
+    "objectID": "projects.html#technical-support-operations-optimization-quanterix",
+    "href": "projects.html#technical-support-operations-optimization-quanterix",
     "title": "Projects",
-    "section": "Technical Support Ops Optimization (Quanterix)",
-    "text": "Technical Support Ops Optimization (Quanterix)\nRole: Ops & Analytics • Stack: Salesforce, JIRA, Excel/Power BI\n\nTriaged global service requests, standardized categories/SLAs, and audited closed cases monthly.\nDesigned a training program (docs + how-to videos) for new coordinators.\nImproved throughput and documentation quality across the service desk.\n\nImpact - Clear ownership, faster routing, and more reliable reporting."
+    "section": "",
+    "text": "Role: Ops Analyst & Process Designer\nStack: Salesforce • JIRA • Excel • Power BI\n\nAudited global service desk requests and implemented standardized categories, SLAs, and reporting workflows.\n\nBuilt monthly dashboards for leadership visibility and root-cause tracking.\n\nCreated onboarding materials and a training library (videos, step-by-step guides) for new team members.\n\nImpact:\n- Increased request throughput, reduced resolution time, and improved documentation consistency.\n- Transitioned team from reactive ticket management to proactive data-driven insights."
   },
   {
-    "objectID": "projects.html#this-website-quarto-github-pages",
-    "href": "projects.html#this-website-quarto-github-pages",
+    "objectID": "projects.html#personal-analytics-portfolio-quarto-github-pages",
+    "href": "projects.html#personal-analytics-portfolio-quarto-github-pages",
     "title": "Projects",
-    "section": "This Website (Quarto + GitHub Pages)",
-    "text": "This Website (Quarto + GitHub Pages)\nRole: Designer/Implementer • Stack: Quarto, GitHub Actions/Pages\n\nBuilt an accessible, fast personal site with a minimal brand.\nOrganized for employers: About, Projects, CV, Contact (no “data cleaning/exploration” tabs).\nImage optimization and consistent typography for a professional look.\n\nLinks - Add when live: Site URL • Source Repo"
+    "section": "",
+    "text": "Role: Designer & Developer\nStack: Quarto • GitHub Actions • HTML/CSS • JavaScript\n\nDesigned and deployed this personal analytics website to host projects, CV, and interactive dashboards.\n\nImplemented a custom dark theme with consistent typography, accessibility compliance, and optimized images for performance.\n\nAutomated builds with GitHub Actions, ensuring clean, version-controlled deployments.\n\nHighlights:\n- Fully reproducible and open-source portfolio showcasing end-to-end technical and design skills."
   },
   {
-    "objectID": "projects.html#what-im-exploring-next",
-    "href": "projects.html#what-im-exploring-next",
+    "objectID": "projects.html#whats-next",
+    "href": "projects.html#whats-next",
     "title": "Projects",
-    "section": "What I’m Exploring Next",
-    "text": "What I’m Exploring Next\n\nPackaging the Lightcast pipeline for parameterized re-runs and CI checks.\nAdding lightweight experiment tracking and a model comparison dashboard."
+    "section": "",
+    "text": "Packaging the Lightcast modeling pipeline for parameterized execution and CI/CD integration.\n\nAdding lightweight experiment tracking and a model-comparison dashboard to visualize model evolution.\n\nExploring cloud orchestration with AWS Lambda and S3-backed data refresh workflows."
   },
   {
     "objectID": "cv.html",
     "href": "cv.html",
     "title": "Curriculum Vitae",
     "section": "",
-    "text": "Senior Business Analyst · Liberty Mutual\n\n\n\nBoston, MA\nCindy’s GitHub\nCindy’s LinkedIn\n\n\n\nDownload PDF\nDownload Word\n\n\n\nSenior Business Analyst who thrives at the intersection of business strategy and data pipelines. Experienced translating messy data into decisions—building predictive models, automating reporting, and presenting insights to stakeholders.\n\n\n\n\n\nLiberty Mutual Insurance\n\n\nSenior Business Analyst · Boston, MA\n\n\nDec 2024 – Present\n\n\n\nLead cross-functional analytics projects translating data into actionable business insights.\nDevelop predictive models and dashboards using Python, SQL, PySpark, and Power BI.\nPartner with IT, Finance, and Product to design reporting solutions and present to senior leadership.\nMentor junior analysts on analysis best practices and business communication.\n\n\n\n\nLiberty Mutual Insurance\n\n\nAccountant · Boston, MA\n\n\nAug 2022 – Dec 2024\n\n\n\nManaged accounts payable totaling $50M; ensured GAAP compliance and accurate reconciliation.\nPrepared weekly financial statements for $1–$3M payments and analyzed transactions.\nPerformed reserve postings and asset-coverage ratio analysis to inform financial performance.\nLed client meetings; supported audits and system-integration projects to drive efficiency.\n\n\n\n\nQuanterix\n\n\nTechnical Support Coordinator · Billerica, MA\n\n\nDec 2018 – Feb 2021\n\n\n\nDirected global service requests via Salesforce; triaged JIRA tickets by urgency and category.\nCreated a training program (docs + how-to videos) to onboard coordinators.\nManaged instrument inventory and maintenance; audited closed cases for process compliance.\n\n\n\n\nLiberty Mutual Insurance\n\n\nRecovery Technician I · Weston, MA\n\n\nJun 2018 – Dec 2018\n\n\n\nProcessed workers’ compensation recovery claims; investigated third-party liabilities and negotiated settlements.\n\n\n\n\n\n\n\nBridgewater State University\n\n\nB.S. in Biochemistry · Bridgewater, MA\n\n\nMay 2018\n\n\n\n\n\n\n\nTechnical\n\n\n\nPython\n\n\nPySpark\n\n\nSQL\n\n\nPower BI\n\n\nSalesforce\n\n\nJIRA\n\n\nSAP\n\n\nMicrosoft Office\n\n\nCore\n\n\n\nData Analysis\n\n\nFinancial Reporting\n\n\nTime Management\n\n\nCommunication\n\n\nStakeholder Management\n\n\nLanguages\n\n\n\nEnglish\n\n\nSpanish"
+    "text": "Senior Business Analyst · Liberty Mutual\n\n\n\nBoston, MA\nCindy’s GitHub\nCindy’s LinkedIn\n\n\n\nDownload PDF\nDownload Word\n\n\n\nSenior Business Analyst who thrives at the intersection of business strategy and data pipelines. Experienced translating messy data into decisions—building predictive models, automating reporting, and presenting insights to stakeholders.\n\n\n\n\n\nLiberty Mutual Insurance\n\n\nSenior Business Analyst · Boston, MA\n\n\nDec 2024 – Present\n\n\n\nLead cross-functional analytics projects translating data into actionable business insights.\nDevelop predictive models and dashboards using Python, SQL, PySpark, and Power BI.\nPartner with IT, Finance, and Product to design reporting solutions and present to senior leadership.\nMentor junior analysts on analysis best practices and business communication.\n\n\n\n\nLiberty Mutual Insurance\n\n\nAccountant · Boston, MA\n\n\nAug 2022 – Dec 2024\n\n\n\nManaged accounts payable totaling $50M; ensured GAAP compliance and accurate reconciliation.\nPrepared weekly financial statements for $1–$3M payments and analyzed transactions.\nPerformed reserve postings and asset-coverage ratio analysis to inform financial performance.\nLed client meetings; supported audits and system-integration projects to drive efficiency.\n\n\n\n\nQuanterix\n\n\nTechnical Support Coordinator · Billerica, MA\n\n\nDec 2018 – Feb 2021\n\n\n\nDirected global service requests via Salesforce; triaged JIRA tickets by urgency and category.\nCreated a training program (docs + how-to videos) to onboard coordinators.\nManaged instrument inventory and maintenance; audited closed cases for process compliance.\n\n\n\n\nLiberty Mutual Insurance\n\n\nRecovery Technician I · Weston, MA\n\n\nJun 2018 – Dec 2018\n\n\n\nProcessed workers’ compensation recovery claims; investigated third-party liabilities and negotiated settlements.\n\n\n\n\n\n\n\nBridgewater State University\n\n\nB.S. in Biochemistry · Bridgewater, MA\n\n\nMay 2018\n\n\n\n\n\n\n\n\nTechnical\n\n\nPython, PySpark, SQL, Power BI, Salesforce, JIRA, SAP, Microsoft Office\n\n\n\n\nCore\n\n\nData Analysis, Financial Reporting, Time Management, Communication, Stakeholder Management\n\n\n\n\nLanguages\n\n\nEnglish, Spanish"
   },
   {
     "objectID": "cv.html#summary",
@@ -74,7 +74,7 @@
     "href": "cv.html#skills",
     "title": "Curriculum Vitae",
     "section": "",
-    "text": "Technical\n\n\n\nPython\n\n\nPySpark\n\n\nSQL\n\n\nPower BI\n\n\nSalesforce\n\n\nJIRA\n\n\nSAP\n\n\nMicrosoft Office\n\n\nCore\n\n\n\nData Analysis\n\n\nFinancial Reporting\n\n\nTime Management\n\n\nCommunication\n\n\nStakeholder Management\n\n\nLanguages\n\n\n\nEnglish\n\n\nSpanish"
+    "text": "Technical\n\n\nPython, PySpark, SQL, Power BI, Salesforce, JIRA, SAP, Microsoft Office\n\n\n\n\nCore\n\n\nData Analysis, Financial Reporting, Time Management, Communication, Stakeholder Management\n\n\n\n\nLanguages\n\n\nEnglish, Spanish"
   },
   {
     "objectID": "contact.html",
@@ -95,7 +95,7 @@
     "href": "index.html",
     "title": "Welcome",
     "section": "",
-    "text": "Hi, I’m Cindy Guzman 👋\nSenior Business Analyst @ Liberty Mutual • MS Applied Business Analytics (BU)\nI translate messy, real-world data into decisions. On this site you’ll find: - Projects showing modeling, visualization, and product thinking - A concise CV (downloadable PDF) - Ways to contact me\n\nCurrently exploring salary prediction with Lightcast job-posting data, model comparison (GLR, Linear, Polynomial, Random Forest), and clean MLOps habits on EC2."
+    "text": "Hi, I’m Cindy Guzman 👋\nSenior Business Analyst @ Liberty Mutual Insurance\nM.S. Applied Business Analytics — Boston University\n\nI’m a data-driven storyteller who bridges business strategy and analytics to turn raw data into measurable impact.\nI design end-to-end solutions — from data pipelines and predictive models to visual dashboards and executive insights — helping organizations make smarter, faster, evidence-based decisions.\n\n🧭 On this site, you’ll find:\n\n💼 Projects showcasing modeling, visualization, and product-thinking\n\n📄 A concise, downloadable CV\n\n📬 Ways to connect and collaborate\n\n\n\n💡 Current Focus:\nBuilding and evaluating salary prediction models using Lightcast job-posting data.\nComparing GLR, Linear, Polynomial, and Random Forest regressors, refining feature engineering pipelines, and maintaining clean MLOps practices on AWS EC2.\n\n\n\n\n🐾 A Little Extra\nOutside of analytics, I’m powered by Barre, horror movies, and Kylo — my Bichon Frise sidekick who occasionally supervises my Quarto builds (usually from a pile of blankets).\nCheck out Kylo’s Corner for a break from the data."
   },
   {
     "objectID": "thanks.html",
@@ -151,13 +151,41 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "I’m a Senior Business Analyst at Liberty Mutual Insurance who thrives at the intersection of business strategy and data pipelines.\nI bring a unique mix of technical expertise and business acumen to every project — whether it’s building predictive models, automating reporting, or presenting insights to stakeholders."
+    "text": "As a Senior Business Analyst I thrive at the intersection of business strategy, data analytics, and technology.\nMy journey from a biochemistry background to advanced analytics has given me a unique perspective on structured problem-solving — one that combines scientific precision with a business-first mindset.\nAs a first-generation professional, I’ve built my career around curiosity, perseverance, and a passion for uncovering stories hidden within data. Whether it’s building predictive models, optimizing reporting pipelines, or translating analytics into strategy, I take pride in bridging the technical and strategic sides of decision-making."
   },
   {
-    "objectID": "about.html#career-goals",
-    "href": "about.html#career-goals",
+    "objectID": "about.html#professional-focus",
+    "href": "about.html#professional-focus",
     "title": "About Me",
-    "section": "Career Goals",
-    "text": "Career Goals\n\n🚀 Ship insight-driven analytics that move metrics\n\n📊 Grow into Analytics/ML Product roles with end-to-end ownership"
+    "section": "🧠 Professional Focus",
+    "text": "🧠 Professional Focus\nIn my current role, I design and implement data-driven solutions that enhance operational efficiency and drive measurable outcomes.\nMy work spans data modeling, automation, and reporting infrastructure, always with a focus on aligning analytics to business impact.\nI approach each project with a hybrid lens — thinking like a scientist, coding like an engineer, and communicating like a strategist."
+  },
+  {
+    "objectID": "about.html#technical-toolkit",
+    "href": "about.html#technical-toolkit",
+    "title": "About Me",
+    "section": "🧰 Technical Toolkit",
+    "text": "🧰 Technical Toolkit\nLanguages & Tools:\nPython • PySpark • SQL • Quarto • Git/GitHub • AWS EC2 • Power BI • Excel • URS • GPT • CoPilot\nI’m deeply interested in the full analytics lifecycle — from wrangling raw data and developing predictive features to visualizing results through Quarto and publishing deliverables on GitHub Pages.\nMy recent project, the Lightcast Salary Prediction Analysis, involved training multiple regression models (GLR, Linear, Polynomial, and Random Forest), assessing performance metrics (RMSE, R², MAE), and visualizing patterns such as salary vs. experience and feature importance to uncover market insights."
+  },
+  {
+    "objectID": "about.html#areas-of-expertise",
+    "href": "about.html#areas-of-expertise",
+    "title": "About Me",
+    "section": "💡 Areas of Expertise",
+    "text": "💡 Areas of Expertise\n\nPredictive modeling and visualization\n\nWorkforce analytics and job-market forecasting\n\nProcess automation and reporting optimization\n\nCloud-based analytics and scalable infrastructure"
+  },
+  {
+    "objectID": "about.html#career-vision",
+    "href": "about.html#career-vision",
+    "title": "About Me",
+    "section": "🎯 Career Vision",
+    "text": "🎯 Career Vision\nI aspire to evolve into an Analytics or Machine Learning Product role, where I can lead cross-functional teams to design data products that scale, automate, and innovate.\nMy long-term goal is to combine technical precision with strategic leadership — crafting data solutions that don’t just inform decisions but shape the future direction of business."
+  },
+  {
+    "objectID": "about.html#beyond-the-data",
+    "href": "about.html#beyond-the-data",
+    "title": "About Me",
+    "section": "🌿 Beyond the Data",
+    "text": "🌿 Beyond the Data\nOutside the world of analytics, I’m fueled by Barre and Pilates, haunted attractions, and horror movie marathons (preferably paired with pizza).\nI share my home and creative energy with Kylo, my Bichon Frise and loyal co-pilot — the fluffy heart of Kylo’s Corner, my favorite part of this portfolio.\n\n\n“Data tells a story — I just help translate it.”\n— Cindy Guzman"
   }
 ]
