@@ -22,6 +22,7 @@ website:
         href: kylo.qmd
   page-navigation: true
   favicon: assets/headshot.jpg
+  site-url: https://cindyrg-cloud.github.io
 
 format:
   html:
