@@ -3,72 +3,87 @@ title: "Projects"
 page-layout: article
 ---
 
-Below are a few highlights that show how I approach real problems end-to-end: clarify the question, build reliable data/ML pipelines, and communicate results to decision-makers.
+# 💼 Projects
 
-------------------------------------------------------------------------
+Below are select highlights that showcase how I approach analytics **end-to-end** — from defining the question, building reliable data pipelines, and experimenting with machine learning models, to communicating results clearly for business decision-makers.
+
+---
 
 ::: project-card
 ## Salary Prediction on Lightcast Job Postings
 
-**Role:** Modeler & Analyst • **Stack:** PySpark, Python, Quarto • **Topics:** feature engineering, regression, evaluation
+**Role:** Data Modeler & Analyst  
+**Stack:** PySpark • Python • Quarto  
+**Topics:** Feature Engineering • Regression Modeling • Evaluation
 
--   Built and compared **GLR**, **Linear**, **Polynomial (quadratic in `MIN_YEARS_EXPERIENCE`)**, and **Random Forest** regressors.
--   Encoded categorical fields (freq-ordered + one-hot), enforced sanity filters, and assembled numeric features.
--   Assessed on **RMSE, MAE, R²** with a clean 80/20 train–test split; produced **actual-vs-pred** visuals and **feature importance**.
--   Delivered a Quarto report with reproducible code and figures.
+- Developed and compared **Generalized Linear Regression (GLR)**, **Linear**, **Polynomial (quadratic)**, and **Random Forest** regressors on Lightcast job-posting data.  
+- Engineered categorical features with **frequency encoding** and **one-hot encoding**, enforced sanity filters (salary, experience), and assembled numerical predictors for modeling.  
+- Evaluated models using **RMSE, MAE, and R²**, applying an 80/20 train–test split with controlled randomness for reproducibility.  
+- Produced **actual-vs-predicted plots**, **feature-importance visualizations**, and a unified metrics dashboard inside a Quarto report.
 
-**Highlights** - Fast, inspectable pipeline with consistent splits and metric tables. - Clear visuals for stakeholder readouts (test set focus, no leakage).
+**Highlights:**  
+- Robust, inspectable pipeline with reproducible outputs.  
+- Clean, modular code organized for future **parameterized re-runs** and **MLOps integration**.
 
-**Links** - *Add when ready:* [Repository](#) • [Report](#)
-
-![Plot placeholder](assets/salary-plot.png){.project-image width="720"}
 :::
 
-------------------------------------------------------------------------
+---
 
 ::: project-card
 ## Financial Reporting Automation (Liberty Mutual)
 
-**Role:** Analyst (Accounting → Analytics) • **Stack:** SQL, Python, Power BI
+**Role:** Business Analyst (Accounting → Analytics Transition)  
+**Stack:** SQL • Python • Power BI  
 
--   Streamlined AP/close workflows supporting **\$50M** in transactions and **\$1–3M** weekly payments.
--   Automated reconciliation checks and **reserve/asset-coverage** calculations to reduce manual effort.
--   Partnered with finance leadership to align metrics and definitions; published refreshed dashboards.
+- Automated financial reporting and reconciliation workflows supporting **\$50M+** in transactions and **\$1–3M** in weekly payments.  
+- Designed Python scripts for **data validation, reserve calculations**, and **asset coverage checks**, reducing manual review cycles.  
+- Partnered with finance leadership to align KPIs, refresh dashboards, and ensure consistency across systems.
 
-**Impact** - Fewer reconciliation defects and faster time-to-close.
+**Impact:**  
+- Cut reconciliation defects by double digits and reduced the monthly **time-to-close** window.  
+- Strengthened data quality, transparency, and trust in reporting.
 :::
 
-------------------------------------------------------------------------
+---
 
 ::: project-card
-## Technical Support Ops Optimization (Quanterix)
+## Technical Support Operations Optimization (Quanterix)
 
-**Role:** Ops & Analytics • **Stack:** Salesforce, JIRA, Excel/Power BI
+**Role:** Ops Analyst & Process Designer  
+**Stack:** Salesforce • JIRA • Excel • Power BI  
 
--   Triaged global service requests, standardized categories/SLAs, and audited closed cases monthly.
--   Designed a **training program** (docs + how-to videos) for new coordinators.
--   Improved throughput and documentation quality across the service desk.
+- Audited global service desk requests and implemented standardized **categories, SLAs, and reporting workflows**.  
+- Built monthly dashboards for leadership visibility and root-cause tracking.  
+- Created onboarding materials and a **training library** (videos, step-by-step guides) for new team members.
 
-**Impact** - Clear ownership, faster routing, and more reliable reporting.
+**Impact:**  
+- Increased request throughput, reduced resolution time, and improved documentation consistency.  
+- Transitioned team from reactive ticket management to proactive data-driven insights.
 :::
 
-------------------------------------------------------------------------
+---
 
 ::: project-card
-## This Website (Quarto + GitHub Pages)
+## Personal Analytics Portfolio (Quarto + GitHub Pages)
 
-**Role:** Designer/Implementer • **Stack:** Quarto, GitHub Actions/Pages
+**Role:** Designer & Developer  
+**Stack:** Quarto • GitHub Actions • HTML/CSS • JavaScript  
 
--   Built an accessible, fast personal site with a minimal brand.
--   Organized for employers: **About**, **Projects**, **CV**, **Contact** (no “data cleaning/exploration” tabs).
--   Image optimization and consistent typography for a professional look.
+- Designed and deployed this **personal analytics website** to host projects, CV, and interactive dashboards.  
+- Implemented a custom **dark theme** with consistent typography, accessibility compliance, and optimized images for performance.  
+- Automated builds with **GitHub Actions**, ensuring clean, version-controlled deployments.
 
-**Links** - *Add when live:* [Site URL](#) • [Source Repo](#)
+**Highlights:**  
+- Fully reproducible and open-source portfolio showcasing end-to-end technical and design skills.
 :::
 
-------------------------------------------------------------------------
+---
 
-## What I’m Exploring Next
+## 🚀 What’s Next
 
--   Packaging the Lightcast pipeline for parameterized re-runs and CI checks.
--   Adding lightweight experiment tracking and a model comparison dashboard.
+- Packaging the Lightcast modeling pipeline for **parameterized execution** and **CI/CD integration**.  
+- Adding lightweight **experiment tracking** and a **model-comparison dashboard** to visualize model evolution.  
+- Exploring cloud orchestration with **AWS Lambda** and **S3-backed data refresh workflows**.
+
+---
+

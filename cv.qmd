@@ -124,53 +124,24 @@ May 2018
 
 ## Skills
 
-::: cv-grid
-**Technical**\
 
-<ul class="cv-tags">
+:::::: cv-item
+::::: cv-item-head
+**Technical**
+:::::
+- Python, PySpark, SQL, Power BI, Salesforce, JIRA, SAP, Microsoft Office
+::::::
 
-<li>Python</li>
+:::::: cv-item
+::::: cv-item-head
+**Core**
+:::::
+- Data Analysis, Financial Reporting, Time Management, Communication, Stakeholder Management
+::::::
 
-<li>PySpark</li>
-
-<li>SQL</li>
-
-<li>Power BI</li>
-
-<li>Salesforce</li>
-
-<li>JIRA</li>
-
-<li>SAP</li>
-
-<li>Microsoft Office</li>
-
-</ul>
-
-**Core**\
-
-<ul class="cv-tags">
-
-<li>Data Analysis</li>
-
-<li>Financial Reporting</li>
-
-<li>Time Management</li>
-
-<li>Communication</li>
-
-<li>Stakeholder Management</li>
-
-</ul>
-
-**Languages**\
-
-<ul class="cv-tags">
-
-<li>English</li>
-
-<li>Spanish</li>
-
-</ul>
-:::
-:::::::::::::::::::::::::::::
+:::::: cv-item
+::::: cv-item-head
+**Languages**
+:::::
+- English, Spanish
+::::::

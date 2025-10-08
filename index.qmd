@@ -3,12 +3,31 @@ title: "Welcome"
 page-layout: article
 ---
 
-# Hi, I’m **Cindy Guzman** 👋
+# Hi, I’m **Cindy Guzman** 👋  
 
-Senior Business Analyst \@ Liberty Mutual • MS Applied Business Analytics (BU)
+**Senior Business Analyst @ Liberty Mutual Insurance**  
+**M.S. Applied Business Analytics — Boston University**
 
-I translate messy, real-world data into decisions. On this site you’ll find: - **Projects** showing modeling, visualization, and product thinking - A concise **CV** (downloadable PDF) - Ways to **contact** me
+---
 
-> Currently exploring salary prediction with Lightcast job-posting data, model comparison (GLR, Linear, Polynomial, Random Forest), and clean MLOps habits on EC2.
+I’m a data-driven storyteller who bridges **business strategy and analytics** to turn raw data into measurable impact.  
 
-------------------------------------------------------------------------
+I design end-to-end solutions — from **data pipelines and predictive models** to **visual dashboards and executive insights** — helping organizations make smarter, faster, evidence-based decisions.
+
+### 🧭 On this site, you’ll find:
+- 💼 **Projects** showcasing modeling, visualization, and product-thinking  
+- 📄 A concise, downloadable **CV**  
+- 📬 Ways to **connect** and collaborate  
+
+---
+
+> 💡 **Current Focus:**  
+> Building and evaluating **salary prediction models** using Lightcast job-posting data.  
+> Comparing **GLR, Linear, Polynomial, and Random Forest regressors**, refining feature engineering pipelines, and maintaining clean **MLOps practices** on AWS EC2.  
+
+---
+
+### 🐾 A Little Extra
+Outside of analytics, I’m powered by **Barre, horror movies, and Kylo** — my Bichon Frise sidekick who occasionally supervises my Quarto builds (usually from a pile of blankets).  
+Check out *[Kylo’s Corner](kylo.qmd)* for a break from the data.
+

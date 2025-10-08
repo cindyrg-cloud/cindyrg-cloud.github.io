@@ -4,17 +4,59 @@ title: "About Me"
 
 <img src="assets/headshot.jpg" alt="Headshot of Cindy Guzman" class="profile-pic" width="200"/>
 
-I’m a **Senior Business Analyst at Liberty Mutual Insurance** who thrives at the intersection of business strategy and data pipelines.
+As a **Senior Business Analyst** I thrive at the intersection of **business strategy, data analytics, and technology**.
 
--   🎓 Background: B.S. Biochemistry • First-generation professional\
--   🛠 Toolbelt: Python, PySpark, SQL, Quarto, Git/GitHub, AWS EC2\
--   💡 Interests: analytics for hiring, forecasting, and customer experience
+My journey from a **biochemistry background** to advanced analytics has given me a unique perspective on structured problem-solving — one that combines scientific precision with a business-first mindset.
 
-I bring a unique mix of technical expertise and business acumen to every project — whether it’s building predictive models, automating reporting, or presenting insights to stakeholders.
+As a **first-generation professional**, I’ve built my career around curiosity, perseverance, and a passion for uncovering stories hidden within data. Whether it’s building predictive models, optimizing reporting pipelines, or translating analytics into strategy, I take pride in bridging the technical and strategic sides of decision-making.
 
 ------------------------------------------------------------------------
 
-## Career Goals
+## 🧠 Professional Focus
 
--   🚀 Ship insight-driven analytics that move metrics\
--   📊 Grow into Analytics/ML Product roles with end-to-end ownership
+In my current role, I design and implement **data-driven solutions** that enhance operational efficiency and drive measurable outcomes.\
+My work spans **data modeling**, **automation**, and **reporting infrastructure**, always with a focus on aligning analytics to business impact.
+
+I approach each project with a hybrid lens — thinking like a scientist, coding like an engineer, and communicating like a strategist.
+
+------------------------------------------------------------------------
+
+## 🧰 Technical Toolkit
+
+**Languages & Tools:**\
+Python • PySpark • SQL • Quarto • Git/GitHub • AWS EC2 • Power BI • Excel • URS • GPT • CoPilot
+
+I’m deeply interested in the **full analytics lifecycle** — from wrangling raw data and developing predictive features to visualizing results through Quarto and publishing deliverables on GitHub Pages.
+
+My recent project, the **Lightcast Salary Prediction Analysis**, involved training multiple regression models (GLR, Linear, Polynomial, and Random Forest), assessing performance metrics (RMSE, R², MAE), and visualizing patterns such as **salary vs. experience** and **feature importance** to uncover market insights.
+
+------------------------------------------------------------------------
+
+## 💡 Areas of Expertise
+
+-   Predictive modeling and visualization\
+-   Workforce analytics and job-market forecasting\
+-   Process automation and reporting optimization\
+-   Cloud-based analytics and scalable infrastructure
+
+------------------------------------------------------------------------
+
+## 🎯 Career Vision
+
+I aspire to evolve into an **Analytics or Machine Learning Product role**, where I can lead cross-functional teams to design data products that scale, automate, and innovate.
+
+My long-term goal is to combine technical precision with strategic leadership — crafting data solutions that don’t just inform decisions but **shape the future direction of business**.
+
+------------------------------------------------------------------------
+
+## 🌿 Beyond the Data
+
+Outside the world of analytics, I’m fueled by **Barre and Pilates**, **haunted attractions**, and **horror movie marathons** (preferably paired with pizza).
+
+I share my home and creative energy with **Kylo**, my Bichon Frise and loyal co-pilot — the fluffy heart of *Kylo’s Corner*, my favorite part of this portfolio.
+
+------------------------------------------------------------------------
+
+> “Data tells a story — I just help translate it.”
+>
+> — *Cindy Guzman*
