@@ -3,7 +3,7 @@ title: "Projects"
 page-layout: article
 ---
 
-# 💼 Projects
+#  Projects
 
 Below are select highlights that showcase how I approach analytics **end-to-end** — from defining the question, building reliable data pipelines, and experimenting with machine learning models, to communicating results clearly for business decision-makers.
 
@@ -79,7 +79,7 @@ Below are select highlights that showcase how I approach analytics **end-to-end*
 
 ---
 
-## 🚀 What’s Next
+##  What’s Next
 
 - Packaging the Lightcast modeling pipeline for **parameterized execution** and **CI/CD integration**.  
 - Adding lightweight **experiment tracking** and a **model-comparison dashboard** to visualize model evolution.  
