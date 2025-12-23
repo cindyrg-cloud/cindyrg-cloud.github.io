@@ -1,13 +1,24 @@
+# -----------------------------
+# Project-level configuration
+# -----------------------------
 project:
-  type: website
-  output-dir: _site
-  # make sure pawtrail.js is copied into _site
+  type: website                # This is a multi-page Quarto website
+  output-dir: _site             # Rendered site output directory (GitHub Pages friendly)
+
+  # Ensure custom JS files are copied to the output directory
   resources:
     - pawtrail.js
     - kylo-lightbox.js
 
+
+# -----------------------------
+# Website settings
+# -----------------------------
 website:
-  title: "Cindy Guzman"
+  title: "Cindy Guzman"         # Site title (appears in browser tab & navbar)
+  site-url: https://cindyrg-cloud.github.io
+
+  # Navigation bar structure
   navbar:
     left:
       - text: About Me
@@ -18,25 +29,37 @@ website:
         href: cv.qmd
       - text: Contact
         href: contact.qmd
-      - text: Kylo's Corner
+      - text: Kylo's Corner     # Personal section (kept for personality)
         href: kylo.qmd
-  page-navigation: true
-  favicon: assets/headshot.jpg
-  site-url: https://cindyrg-cloud.github.io
 
+  page-navigation: true         # Enables next/previous page links
+  favicon: assets/headshot.jpg  # Browser tab icon
+
+
+# -----------------------------
+# Output format (HTML)
+# -----------------------------
 format:
   html:
-    theme: lux
-    toc: true
-    toc-depth: 2
-    smooth-scroll: true
-    css: styles.css
-    # inject the script with a proper tag
+    theme: cosmo                # Professional, corporate-friendly theme
+                                 # (Recommended over 'lux' for CVs & analytics portfolios)
+
+    toc: true                   # Enable table of contents
+    toc-depth: 2                # Limit TOC to headers h1–h2 for readability
+    toc-location: right         # Keeps content clean and scannable
+
+    smooth-scroll: true         # Improves navigation UX
+    css: styles.css             # Custom styling overrides
+
+    # Inject custom JavaScript at the end of the page body
     include-after-body:
       - text: |
           <script src="pawtrail.js"></script>
           <script src="kylo-lightbox.js"></script>
 
-# Optional: nice URLs (no .html in links)
-metadata-files: []
-editor: visual
+
+# -----------------------------
+# Optional / editor settings
+# -----------------------------
+metadata-files: []              # Explicitly empty (safe default)
+editor: visual                  # Enables Quarto visual editor
