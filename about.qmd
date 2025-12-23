@@ -12,7 +12,7 @@ As a **first-generation professional**, I’ve built my career around curiosity,
 
 ------------------------------------------------------------------------
 
-## 🧠 Professional Focus
+##  Professional Focus
 
 In my current role, I design and implement **data-driven solutions** that enhance operational efficiency and drive measurable outcomes.\
 My work spans **data modeling**, **automation**, and **reporting infrastructure**, always with a focus on aligning analytics to business impact.
@@ -21,7 +21,7 @@ I approach each project with a hybrid lens — thinking like a scientist, coding
 
 ------------------------------------------------------------------------
 
-## 🧰 Technical Toolkit
+##  Technical Toolkit
 
 **Languages & Tools:**\
 Python • PySpark • SQL • Quarto • Git/GitHub • AWS EC2 • Power BI • Excel • URS • GPT • CoPilot
@@ -32,7 +32,7 @@ My recent project, the **Lightcast Salary Prediction Analysis**, involved traini
 
 ------------------------------------------------------------------------
 
-## 💡 Areas of Expertise
+##  Areas of Expertise
 
 -   Predictive modeling and visualization\
 -   Workforce analytics and job-market forecasting\
@@ -41,7 +41,7 @@ My recent project, the **Lightcast Salary Prediction Analysis**, involved traini
 
 ------------------------------------------------------------------------
 
-## 🎯 Career Vision
+##  Career Vision
 
 I aspire to evolve into an **Analytics or Machine Learning Product role**, where I can lead cross-functional teams to design data products that scale, automate, and innovate.
 
@@ -49,7 +49,7 @@ My long-term goal is to combine technical precision with strategic leadership �
 
 ------------------------------------------------------------------------
 
-## 🌿 Beyond the Data
+##  Beyond the Data
 
 Outside the world of analytics, I’m fueled by **Barre and Pilates**, **haunted attractions**, and **horror movie marathons** (preferably paired with pizza).
 
