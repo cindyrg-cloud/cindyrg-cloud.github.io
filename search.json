@@ -157,35 +157,35 @@
     "objectID": "about.html#professional-focus",
     "href": "about.html#professional-focus",
     "title": "About Me",
-    "section": "🧠 Professional Focus",
-    "text": "🧠 Professional Focus\nIn my current role, I design and implement data-driven solutions that enhance operational efficiency and drive measurable outcomes.\nMy work spans data modeling, automation, and reporting infrastructure, always with a focus on aligning analytics to business impact.\nI approach each project with a hybrid lens — thinking like a scientist, coding like an engineer, and communicating like a strategist."
+    "section": "Professional Focus",
+    "text": "Professional Focus\nIn my current role, I design and implement data-driven solutions that enhance operational efficiency and drive measurable outcomes.\nMy work spans data modeling, automation, and reporting infrastructure, always with a focus on aligning analytics to business impact.\nI approach each project with a hybrid lens — thinking like a scientist, coding like an engineer, and communicating like a strategist."
   },
   {
     "objectID": "about.html#technical-toolkit",
     "href": "about.html#technical-toolkit",
     "title": "About Me",
-    "section": "🧰 Technical Toolkit",
-    "text": "🧰 Technical Toolkit\nLanguages & Tools:\nPython • PySpark • SQL • Quarto • Git/GitHub • AWS EC2 • Power BI • Excel • URS • GPT • CoPilot\nI’m deeply interested in the full analytics lifecycle — from wrangling raw data and developing predictive features to visualizing results through Quarto and publishing deliverables on GitHub Pages.\nMy recent project, the Lightcast Salary Prediction Analysis, involved training multiple regression models (GLR, Linear, Polynomial, and Random Forest), assessing performance metrics (RMSE, R², MAE), and visualizing patterns such as salary vs. experience and feature importance to uncover market insights."
+    "section": "Technical Toolkit",
+    "text": "Technical Toolkit\nLanguages & Tools:\nPython • PySpark • SQL • Quarto • Git/GitHub • AWS EC2 • Power BI • Excel • URS • GPT • CoPilot\nI’m deeply interested in the full analytics lifecycle — from wrangling raw data and developing predictive features to visualizing results through Quarto and publishing deliverables on GitHub Pages.\nMy recent project, the Lightcast Salary Prediction Analysis, involved training multiple regression models (GLR, Linear, Polynomial, and Random Forest), assessing performance metrics (RMSE, R², MAE), and visualizing patterns such as salary vs. experience and feature importance to uncover market insights."
   },
   {
     "objectID": "about.html#areas-of-expertise",
     "href": "about.html#areas-of-expertise",
     "title": "About Me",
-    "section": "💡 Areas of Expertise",
-    "text": "💡 Areas of Expertise\n\nPredictive modeling and visualization\n\nWorkforce analytics and job-market forecasting\n\nProcess automation and reporting optimization\n\nCloud-based analytics and scalable infrastructure"
+    "section": "Areas of Expertise",
+    "text": "Areas of Expertise\n\nPredictive modeling and visualization\n\nWorkforce analytics and job-market forecasting\n\nProcess automation and reporting optimization\n\nCloud-based analytics and scalable infrastructure"
   },
   {
     "objectID": "about.html#career-vision",
     "href": "about.html#career-vision",
     "title": "About Me",
-    "section": "🎯 Career Vision",
-    "text": "🎯 Career Vision\nI aspire to evolve into an Analytics or Machine Learning Product role, where I can lead cross-functional teams to design data products that scale, automate, and innovate.\nMy long-term goal is to combine technical precision with strategic leadership — crafting data solutions that don’t just inform decisions but shape the future direction of business."
+    "section": "Career Vision",
+    "text": "Career Vision\nI aspire to evolve into an Analytics or Machine Learning Product role, where I can lead cross-functional teams to design data products that scale, automate, and innovate.\nMy long-term goal is to combine technical precision with strategic leadership — crafting data solutions that don’t just inform decisions but shape the future direction of business."
   },
   {
     "objectID": "about.html#beyond-the-data",
     "href": "about.html#beyond-the-data",
     "title": "About Me",
-    "section": "🌿 Beyond the Data",
-    "text": "🌿 Beyond the Data\nOutside the world of analytics, I’m fueled by Barre and Pilates, haunted attractions, and horror movie marathons (preferably paired with pizza).\nI share my home and creative energy with Kylo, my Bichon Frise and loyal co-pilot — the fluffy heart of Kylo’s Corner, my favorite part of this portfolio.\n\n\n“Data tells a story — I just help translate it.”\n— Cindy Guzman"
+    "section": "Beyond the Data",
+    "text": "Beyond the Data\nOutside the world of analytics, I’m fueled by Barre and Pilates, haunted attractions, and horror movie marathons (preferably paired with pizza).\nI share my home and creative energy with Kylo, my Bichon Frise and loyal co-pilot — the fluffy heart of Kylo’s Corner, my favorite part of this portfolio.\n\n\n“Data tells a story — I just help translate it.”\n— Cindy Guzman"
   }
 ]
