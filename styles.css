@@ -6,6 +6,18 @@
 h1, h2, h3 { letter-spacing: .2px; }
 img { max-width: 100%; }
 
+/* Professional typography baseline */
+body {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+
 /* Profile headshot styling */
 .profile-pic {
   display: block;
@@ -83,7 +95,11 @@ img { max-width: 100%; }
   display: inline-block; padding: .5rem .85rem; border-radius: 8px;
   border: 1px solid #111827; text-decoration: none; font-weight: 600;
 }
-.cv-btn.ghost { border-color: none; color: #ffffff; }
+.cv-btn.ghost { 
+  border-color: 
+    none; 
+  color: #ffffff; 
+}
 
 .cv-section { margin-top: 1.25rem; }
 .cv-section h2 { border-left: 4px solid #111827; padding-left: .5rem; margin-bottom: .5rem; }
@@ -212,13 +228,8 @@ h1, h2, h3, h4, h5, h6 { color: #ffffff !important; }
 hr { border-top: 1px solid #222; }
 
 /* Make common text contexts white */
-p, li, dl, dt, dd, small, .small, .text-muted, .lead,
-figcaption, .figure-caption, .caption, blockquote,
-.quarto-title-meta, .table, .card, .callout, .callout p,
-.list-group-item, .breadcrumb, .breadcrumb a,
-.nav-footer, footer, .sidebar, .quarto-secondary-sidebar,
-.toc, .toc .nav-link, nav[role="doc-toc"] .nav-link {
-  color: #ffffff !important;
+p, li, dl, dt, dd, small, .lead, figcaption {
+  color: #e6e6e6 !important;
 }
 
 /* Links -> white */
@@ -272,7 +283,9 @@ pre, code, .code-with-copy pre, .sourceCode {
 .contact-form input::placeholder, .contact-form textarea::placeholder { color: #c7c7c7; }
 
 /* CV accents */
-.cv-section h2 { border-left-color: #f5f5f5; }
+.cv-section h2 {
+  border-left-color: #9ca3af;
+}
 .cv-contacts, .cv-role, .cv-sub, .cv-dates { color: #ffffff; }
 
 /* Kylo hero + grid stronger shadows on dark */
