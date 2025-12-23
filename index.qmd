@@ -5,7 +5,7 @@ page-layout: article
 
 # Hi, I’m **Cindy Guzman** 
 
-**Senior Business Analyst @ Liberty Mutual Insurance**  
+**Senior Business Analyst @ Liberty Mutual Reinsurance**  
 **M.S. Applied Business Analytics — Boston University**
 
 ---
