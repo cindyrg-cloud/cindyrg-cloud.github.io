@@ -25,7 +25,7 @@ Boston, MA\
 
 ::: cv-downloads
 [Download PDF](assets/Cindy_Guzman_CV.pdf){.cv-btn}\
-[Download Word](assets/Cindy_Guzman_CV.docx){.cv-btn .ghost}
+[Download Word](assets/Cindy_Guzman_CV.docx){.cv-btn}
 :::
 
 ## Summary
