@@ -3,7 +3,6 @@
 /* ===== Global Styles ===== */
 /* Subtle polish */
 .navbar-brand { font-weight: 700; }
-h1, h2, h3 { letter-spacing: .2px; }
 img { max-width: 100%; }
 
 /* Professional typography baseline */
@@ -47,12 +46,11 @@ h1, h2, h3 {
 
 /* --- Project cards --- */
 .project-card {
-  border: 1px solid #e5e7eb;
+  border: 1px solid #262626;
   border-radius: 12px;
   padding: 1.25rem 1.25rem 1rem;
   margin-bottom: 1rem;
-  background: #ffffff;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  background: #121212;
 }
 
 .project-card h2 {
@@ -96,8 +94,7 @@ h1, h2, h3 {
   border: 1px solid #111827; text-decoration: none; font-weight: 600;
 }
 .cv-btn.ghost { 
-  border-color: 
-    none; 
+  border-color: none; 
   color: #ffffff; 
 }
 
@@ -224,7 +221,7 @@ h1, h2, h3 {
 }
 
 html, body { background: #0b0b0b; color: #ffffff; }
-h1, h2, h3, h4, h5, h6 { color: #ffffff !important; }
+h1, h2, h3, h4, h5, h6 { color: #ffffff; }
 hr { border-top: 1px solid #222; }
 
 /* Make common text contexts white */
@@ -232,9 +229,15 @@ p, li, dl, dt, dd, small, .lead, figcaption {
   color: #e6e6e6 !important;
 }
 
-/* Links -> white */
-a { color: #ffffff !important; text-decoration-color: rgba(255,255,255,.6); }
-a:hover, a:focus { color: #e6e6e6 !important; }
+a {
+  color: #e6e6e6;
+  text-decoration-color: rgba(255,255,255,.4);
+}
+a:hover,
+a:focus {
+  color: #ffffff;
+}
+
 
 /* Navbar */
 .navbar {
@@ -253,9 +256,9 @@ a:hover, a:focus { color: #e6e6e6 !important; }
 .dropdown-item:hover { background: #1a1a1a; color: #fff; }
 
 /* Cards / sections */
-.card, .project-card {
-  background: #121212 !important;
-  border-color: #262626 !important;
+.card {
+  background: #121212;
+  border-color: #262626;
   box-shadow: none;
 }
 
